@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 agnos-web-0.0.1.war filter=lfs diff=lfs merge=lfs -text
+ROOT.war filter=lfs diff=lfs merge=lfs -text
