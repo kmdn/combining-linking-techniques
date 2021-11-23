@@ -6,10 +6,7 @@ FROM tomcat:9.0 AS base
 # Metadata indicating an image maintainer.
 LABEL maintainer="kmdn@github.com"
 
-ADD sample.war /usr/local/tomcat/webapps/
-
-# Copy over our models
-COPY models ./models
+ADD agnos-web-0.0.1.war /usr/local/tomcat/webapps/
 
 # run program on startup
 # CMD ["python", "linker_recommender.py"]
