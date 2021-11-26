@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      network: host
+    ports:
+      - 5001:5001
