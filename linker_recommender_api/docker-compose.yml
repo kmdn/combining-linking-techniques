@@ -5,6 +5,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      network: host
     ports:
       - 5002:5002
