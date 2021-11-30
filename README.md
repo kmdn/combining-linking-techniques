@@ -7,12 +7,16 @@
 ```
 
 2. Either 
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(a) run only front-end or 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(b) run front-end incl. linker recommendation and spaCy mention detection
 
-
+<ol type="a">
+  <li>Run docker container</li>
+	docker-compose up
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
 	1. Run docker container
 	docker-compose up
 
