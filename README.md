@@ -66,9 +66,7 @@ EXPERIMENTS:
 				DOCUMENTS
 			],
 		"pipelineConfig": 
-			JSONObject{
-				PIPELINE
-			},
+			PIPELINE,
 		"errorMessage": String,
 		"experimentId": int,
 		"state": String (e.g. "DONE"),
@@ -96,7 +94,7 @@ DOCUMENTS:
 
 MENTIONS:
 ```	
-	{
+	JSONObject{
 		"offset": int,
 		"assignment": 
 			JSONObject{
@@ -120,7 +118,7 @@ MENTIONS:
 
 PIPELINE:
 ```	
-	{
+	JSONObject{
 		"startComponents": 
 			JSONArray[
 				String (e.g. "MD1")
