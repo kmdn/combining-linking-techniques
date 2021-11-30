@@ -46,18 +46,19 @@
 
 
 ## JSON Result structure
-```
 Pipeline Results:
+```
 	JSONObject{
 		"experimentId": int,
 		"experimentTasks": 
 			JSONArray[
-				EXPERIMENTS
+				<EXPERIMENTS>
 			]
 	}
-
+```	
 
 EXPERIMENTS:
+```	
 	JSONObject{
 		"currentComponent": String,
 		"documents": 
@@ -66,7 +67,7 @@ EXPERIMENTS:
 			],
 		"pipelineConfig": 
 			JSONObject{
-				*PIPELINE*
+				PIPELINE
 			},
 		"errorMessage": String,
 		"experimentId": int,
@@ -75,7 +76,10 @@ EXPERIMENTS:
 		"taskId": int
 	}
 
+```	
+
 DOCUMENTS: 
+```	
 	JSONArray[			-- need double JSONArray in order to store sub-pipeline results for each document
 		JSONArray[
 			JSONObject{
@@ -90,8 +94,10 @@ DOCUMENTS:
 			}
 		]
 	]
+```	
 
 MENTIONS:
+```	
 	{
 		"offset": int,
 		"assignment": 
@@ -112,8 +118,10 @@ MENTIONS:
 		"originalMention": String (e.g. "Empire"),
 		"mention": String (e.g. "Empire")
 	}
+```	
 
 PIPELINE:
+```	
 	{
 		"startComponents": 
 			JSONArray[

@@ -17,7 +17,7 @@ EXPERIMENTS:
 			],
 		"pipelineConfig": 
 			JSONObject{
-				*PIPELINE*
+				PIPELINE
 			},
 		"errorMessage": String,
 		"experimentId": int,
