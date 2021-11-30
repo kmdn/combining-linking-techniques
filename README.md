@@ -66,7 +66,7 @@ EXPERIMENTS:
 			],
 		"pipelineConfig": 
 			JSONObject{
-				PIPELINE
+				*PIPELINE*
 			},
 		"errorMessage": String,
 		"experimentId": int,
@@ -76,7 +76,7 @@ EXPERIMENTS:
 	}
 
 DOCUMENTS: 
-	JSONArray[			-- need double JSONArray in order to display sub-pipeline results for each document
+	JSONArray[			-- need double JSONArray in order to store sub-pipeline results for each document
 		JSONArray[
 			JSONObject{
 				"componentId": String,
