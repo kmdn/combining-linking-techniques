@@ -8,12 +8,12 @@
 
 2. Run docker container(s)
 
-a. Run only front-end docker container
+1. Run only front-end docker container
 ```
 docker-compose up
 ```
 
-b. Run front-end incl. linker recommendation and spaCy mention detection docker container
+2. Run front-end incl. linker recommendation and spaCy mention detection docker container
 ```
 docker-compose -f ./docker-compose-all.yml up
 ```
