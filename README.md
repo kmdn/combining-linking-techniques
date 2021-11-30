@@ -27,25 +27,23 @@
 ## Repository structure
 */linker_recommender_api*
 
-API template for entity linker recommendation.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;API template for entity linker recommendation.
 
 
 */spacy_md_api*
 
-API template for mention detection based on spaCy.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;API template for mention detection based on spaCy.
 
 
 */evaluation_datasets*
 
-Evaluation data sets accessible through the framework front-end.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluation data sets accessible through the framework front-end.
 
 
 */img*
 
-Images for README.md
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Images for README.md
+
 
 [CLiT Website](http://clit.tech)
 [![CLiT Website](/img/clit_website_part_core.png)](http://clit.tech)
