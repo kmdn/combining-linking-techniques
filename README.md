@@ -30,9 +30,11 @@
 API template for entity linker recommendation.
 
 
+
 */spacy_md_api*
 
 API template for mention detection based on spaCy.
+
 
 
 */evaluation_datasets*
@@ -40,7 +42,9 @@ API template for mention detection based on spaCy.
 Evaluation data sets accessible through the framework front-end.
 
 
+
 */img*
+
 Images for README.md
 
 [CLiT Website](http://clit.tech)
