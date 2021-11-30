@@ -28,18 +28,16 @@ EXPERIMENTS:
 
 DOCUMENTS: 
 	JSONArray[			-- need double JSONArray in order to store sub-pipeline results for each document
-		JSONArray[
-			JSONObject{
-				"componentId": String,
-				"mentions": 
-					JSONArray[
-						MENTIONS
-					],
-				"text": String (e.g. "Napoleon was the emperor of the First French Empire."),
-				"pipelineType": String (e.g. "ED"),
-				"uri": String
-			}
-		]
+		JSONObject{
+			"componentId": String,
+			"mentions": 
+				JSONArray[
+					MENTIONS
+				],
+			"text": String (e.g. "Napoleon was the emperor of the First French Empire."),
+			"pipelineType": String (e.g. "ED"),
+			"uri": String
+		}
 	]
 
 MENTIONS:
