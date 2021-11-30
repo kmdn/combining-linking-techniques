@@ -1,0 +1,106 @@
+Pipeline Results:
+	JSONObject{
+		"experimentId": int,
+		"experimentTasks": 
+			JSONArray[
+				EXPERIMENTS
+			]
+	}
+
+
+EXPERIMENTS:
+	JSONObject{
+		"currentComponent": String,
+		"documents": 
+			JSONArray[
+				DOCUMENTS
+			],
+		"pipelineConfig": 
+			JSONObject{
+				PIPELINE
+			},
+		"errorMessage": String,
+		"experimentId": int,
+		"state": String (e.g. "DONE"),
+		"pipelineType": String (e.g. "FULL"),
+		"taskId": int
+	}
+
+DOCUMENTS: 
+	JSONArray[			-- need double JSONArray in order to display sub-pipeline results for each document
+		JSONArray[
+			JSONObject{
+				"componentId": String,
+				"mentions": 
+					JSONArray[
+						MENTIONS
+					],
+				"text": String (e.g. "Napoleon was the emperor of the First French Empire."),
+				"pipelineType": String (e.g. "ED"),
+				"uri": String
+			}
+		]
+	]
+
+MENTIONS:
+	{
+		"offset": int,
+		"assignment": 
+			JSONObject{
+				"score": double,
+				"assignment": String (e.g. "http://dbpedia.org/resource/Empire")
+			},
+			"possibleAssignments": 
+				JSONArray[
+					JSONObject{
+						"score": double, 
+						"assignment": String
+					}
+				]
+		},
+		"originalWithoutStopwords": String (e.g. "Empire"),
+		"detectionConfidence": double (e.g. 0.0),
+		"originalMention": String (e.g. "Empire"),
+		"mention": String (e.g. "Empire")
+	}
+
+PIPELINE:
+	{
+		"startComponents": 
+			JSONArray[
+				String (e.g. "MD1")
+			],
+		"components": 
+			JSONObject{
+				"md" (IF PRESENT):
+					JSONArray[
+						JSONObject{
+							"id": String (e.g. "MD1"),
+							"value": String (e.g. "Babelfy")
+						}
+					],
+
+				"cg_ed" (IF PRESENT): 
+					JSONArray[
+						JSONObject{
+							"id": String (e.g. "CG_ED1"),
+							"value":"Babelfy"
+						}
+					]
+			},
+		"exampleId": String (e.g. "md_combined_cged"),
+		"endComponents": 
+			JSONArray[
+				String (e.g. "CG_ED1", "MD1")
+			],
+		"displayName": String (e.g. "MD + combined CG-ED"),
+		"id": int (e.g. 1),
+		"connections":
+			JSONArray[
+				JSONObject{
+					"source": String (e.g. "MD1"),
+					"target": String (e.g. "CG_ED1")
+				}
+			],
+		"pipelineConfigType": String (e.g. "complex")
+	}
