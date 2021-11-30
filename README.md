@@ -1,6 +1,6 @@
 # Combining Linking Techniques (Docker version)
 
-## How to run front-end
+## How to run
 1. Clone Github repository & go into its root folder.
 ```
  git clone https://github.com/kmdn/agnos_collab_docker.git
@@ -24,14 +24,24 @@
 ```
 
 
-## Structure explanations
-/linker_recommender_api - API template for entity linker recommendation.
+## Repository structure
+*/linker_recommender_api*
 
-/spacy_md_api - API template for mention detection based on spaCy.
+API template for entity linker recommendation.
 
-/evaluation_datasets - Evaluation data sets accessible through the framework front-end.
 
-/img - Images for 
+*/spacy_md_api*
+
+API template for mention detection based on spaCy.
+
+
+*/evaluation_datasets*
+
+Evaluation data sets accessible through the framework front-end.
+
+
+*/img*
+Images for README.md
 
 [CLiT Website](http://clit.tech)
 [![CLiT Website](/img/clit_website_part_core.png)](http://clit.tech)
