@@ -6,7 +6,11 @@
  git clone https://github.com/kmdn/agnos_collab_docker.git
 ```
 
-2. Either (a) run only front-end or (b) run front-end incl. linker recommendation and spaCy mention detection
+2. Either (a) run only front-end or 
+
+(b) run front-end incl. linker recommendation and spaCy mention detection
+
+
 2.a) Run docker container
 ```
  docker-compose up
