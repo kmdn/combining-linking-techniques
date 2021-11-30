@@ -13,12 +13,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(b) run front-end incl. linker recommendation and spaCy mention detection
 
 
-	2.a) Run docker container
+	2.a Run docker container
 ```
  docker-compose up
 ```
 
-	2.b) Run docker container
+	2.b Run docker container
 ```
  docker-compose -f ./docker-compose-all.yml up
 ```
