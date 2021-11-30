@@ -1,24 +1,24 @@
 # Combining Linking Techniques (Docker version)
 
 ## How to run front-end
-1. Clone Github repository & go into its root folder
+1. Clone Github repository & go into its root folder.
 ```
  git clone https://github.com/kmdn/agnos_collab_docker.git
 ```
 
-2. Run docker container(s)
+2. Run docker container(s).
 
-	1. Run only front-end docker container
+	1. Run only front-end docker container.
 	```
 	docker-compose up
 	```
 
-	2. Run front-end incl. linker recommendation and spaCy mention detection docker container
+	2. Run front-end incl. linker recommendation and spaCy mention detection docker containers.
 	```
 	docker-compose -f ./docker-compose-all.yml up
 	```
 
-3. Access front-end via browser at
+3. Access front-end via browser at address:
 ```
  localhost:8080/
 ```
