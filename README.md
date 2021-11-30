@@ -52,7 +52,7 @@ Pipeline Results:
 		"experimentId": int,
 		"experimentTasks": 
 			JSONArray[
-				<EXPERIMENTS>
+				EXPERIMENTS
 			]
 	}
 ```	
