@@ -13,7 +13,9 @@
 
 <ol type="a">
   <li>Run docker container</li>
+```
 	docker-compose up
+```
   <li>Tea</li>
   <li>Milk</li>
 </ol>
