@@ -6,25 +6,21 @@
  git clone https://github.com/kmdn/agnos_collab_docker.git
 ```
 
-2. Run docker container
+2. Either (a) run only front-end or (b) run front-end incl. linker recommendation and spaCy mention detection
+2.a) Run docker container
 ```
  docker-compose up
 ```
 
-3. Access front-end via browser at
+2.b) Run docker container
 ```
- localhost:8080/
-```
-
-## How to run front-end incl. linker recommendation and spaCy mention detection
-1. Clone Github repository & go into its root folder
- git clone https://github.com/kmdn/agnos_collab_docker.git
-
-2. Run docker container
  docker-compose -f ./docker-compose-all.yml up
+```
 
 3. Access front-end via browser at
+```
  localhost:8080/
+```
 
 
 ## Structure explanations
