@@ -133,7 +133,7 @@ PIPELINE:
 					JSONArray[
 						JSONObject{
 							"id": String (e.g. "CG_ED1"),
-							"value":"Babelfy"
+							"value": String (e.g. "Babelfy")
 						}
 					]
 			},
