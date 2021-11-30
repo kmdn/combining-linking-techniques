@@ -9,14 +9,14 @@
 2. Run docker container(s)
 
 	1. Run only front-end docker container
-```
-docker-compose up
-```
+	```
+	docker-compose up
+	```
 
 	2. Run front-end incl. linker recommendation and spaCy mention detection docker container
-```
-docker-compose -f ./docker-compose-all.yml up
-```
+	```
+	docker-compose -f ./docker-compose-all.yml up
+	```
 
 3. Access front-end via browser at
 ```
