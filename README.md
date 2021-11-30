@@ -7,6 +7,7 @@
 ```
 
 2. Either
+
 	a. Run only front-end docker container
 ```
 	docker-compose up
