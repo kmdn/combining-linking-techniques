@@ -11,18 +11,10 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(b) run front-end incl. linker recommendation and spaCy mention detection
 
-<ol type="a">
-  <li>Run docker container</li>
-```
-	docker-compose up
-```
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-	1. Run docker container
+	a. Run docker container
 	docker-compose up
 
-	2. Run docker container
+	b. Run docker container
 	docker-compose -f ./docker-compose-all.yml up
 
 3. Access front-end via browser at
