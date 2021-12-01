@@ -68,10 +68,10 @@ PIPELINE:
 			],
 		"components": 
 			JSONObject{
-				"md" (IF PRESENT):
+				"md" (Only if present. May be: md, cg, ed, md_cg_ed, md_cg, cg_ed, ...):
 					JSONArray[
 						JSONObject{
-							"id": String (e.g. "MD1"),
+							"id": String (e.g. "MD1"; ID matches w/ IDs in connections),
 							"value": String (e.g. "Babelfy")
 						}
 					],

@@ -127,10 +127,10 @@ PIPELINE:
 			],
 		"components": 
 			JSONObject{
-				"md" (IF PRESENT):
+				"md" (Only if present. May be: md, cg, ed, md_cg_ed, md_cg, cg_ed, ...):
 					JSONArray[
 						JSONObject{
-							"id": String (e.g. "MD1"),
+							"id": String (e.g. "MD1"; ID matches w/ IDs in connections),
 							"value": String (e.g. "Babelfy")
 						}
 					],
@@ -264,10 +264,10 @@ the chosen workflow. In this paper, we define 4 types of processors:
 ### Splitter
 
   ------------------- ---------------------------------------------------------------
-	 **Description:** 
-     **Preceded by:** Any single-connected component
-    **Succeeded by:** 2 or more components
-        **Commonly:** Directly passing same information to two (or more) components
+	 **Description:** Splits results from components in intelligent ways (e.g. person-type entities to ).
+     **Preceded by:** Any single-connected component.
+    **Succeeded by:** 2 or more components.
+        **Commonly:** Directly passing same information to two (or more) components.
   ------------------- ---------------------------------------------------------------
 
 Allowing for processing of items prior to passing them on to a
@@ -287,9 +287,9 @@ prior st
 
   ------------------- -----------------------------------------------------------
 	 **Description:** Combines results from components in intelligent ways.
-     **Preceded by:** Any multiply-connected ≥ 2 component or subcomponent
-    **Succeeded by:** Any single component, *translator* or *filter*
-        **Commonly:** *Union* operation, *intersection* operation
+     **Preceded by:** Any multiply-connected ≥ 2 component or subcomponent.
+    **Succeeded by:** Any single component, *translator* or *filter*.
+        **Commonly:** *Union* operation, *intersection* operation.
   ------------------- -----------------------------------------------------------
 
 In case multiple components were utilised in a prior step and are meant
