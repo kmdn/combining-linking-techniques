@@ -13,7 +13,9 @@
 	docker-compose up
 	```
 
-	2. Run front-end incl. linker recommendation and spaCy mention detection docker containers.
+	2. Run front-end incl. following docker containers
+		1. linker recommendation.
+		2. spaCy mention detection.
 	```
 	docker-compose -f ./docker-compose-all.yml up
 	```
