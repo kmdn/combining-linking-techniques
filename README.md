@@ -264,6 +264,7 @@ the chosen workflow. In this paper, we define 4 types of processors:
 ### Splitter
 
   ------------------- ---------------------------------------------------------------
+	 **Description:** 
      **Preceded by:** Any single-connected component
     **Succeeded by:** 2 or more components
         **Commonly:** Directly passing same information to two (or more) components
@@ -285,7 +286,8 @@ prior st
 ### Combiner
 
   ------------------- -----------------------------------------------------------
-     **Preceded by:** Any multiply-connected > 2 component or subcomponent
+	 **Description:** Combines results from components in intelligent ways.
+     **Preceded by:** Any multiply-connected ≥ 2 component or subcomponent
     **Succeeded by:** Any single component, *translator* or *filter*
         **Commonly:** *Union* operation, *intersection* operation
   ------------------- -----------------------------------------------------------
@@ -302,6 +304,7 @@ prior to passing it on.
 ### Filter
 
   ------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------
+	 **Description:** Removes certain parts of information. Aims to facilitate further downstream processing.
      **Preceded by:** Any component or subcomponent.
     **Succeeded by:** Any component or *translator*.
         **Commonly:** NER-, POS-specific or `rdf:type` filtering.
@@ -316,6 +319,7 @@ outcomes may be detected by a subsequent component or translator.
 ### Translator
 
   ------------------- --------------------------------------------------------------------------------------
+	 **Description:** 'Translates' entities from one KB to another (e.g. from Wikipedia to Wikidata).
      **Preceded by:** Any component or subcomponent.
     **Succeeded by:** Any component or subcomponent.
         **Commonly:** `owl:sameAs` linking across KGs.
