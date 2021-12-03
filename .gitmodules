@@ -1,3 +1,6 @@
 [submodule "spacy_md_api"]
 	path = spacy_md_api
 	url = https://github.com/kmdn/spacy_md_api.git
+[submodule "linker_recommender_api"]
+	path = linker_recommender_api
+	url = https://github.com/kmdn/linker_recommender_api.git
