@@ -3,3 +3,5 @@
 agnos-web-0.0.1.war filter=lfs diff=lfs merge=lfs -text
 ROOT.war filter=lfs diff=lfs merge=lfs -text
 evaluation_datasets/* filter=lfs diff=lfs merge=lfs -text
+evaluation_datasets/ filter=lfs diff=lfs merge=lfs -text
+linker_recommender_api/models/ filter=lfs diff=lfs merge=lfs -text
