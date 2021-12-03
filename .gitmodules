@@ -4,3 +4,6 @@
 [submodule "linker_recommender_api"]
 	path = linker_recommender_api
 	url = https://github.com/kmdn/linker_recommender_api.git
+[submodule "clit_frontend"]
+	path = clit_frontend
+	url = https://github.com/kmdn/clit_frontend.git
