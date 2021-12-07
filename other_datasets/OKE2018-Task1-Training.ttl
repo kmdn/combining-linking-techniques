@@ -1,0 +1,660 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_0#char=0,240>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "240"^^xsd:nonNegativeInteger ;
+        nif:isString    "Global equity funds received $21 billion in the past week - their ninth-biggest inflow ever - as investors embraced the 'Trump trade', while money flowed out of bonds for seventh week in a row, Bank of America Merrill Lynch said on Friday. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_1#char=0,548>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "548"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Facebook co-founder coded the AI assistant - called Jarvis, after the butler in Iron Man - for his home. If he decides to release it to the public, people would relate differently to a famous voice than more robotic sounding assistants, tech experts said. Mr Zuckerberg asked his Facebook followers to pick the voice after building artificial intelligence to help him around the house. He told tech news site Fast Company that he called Mr Freeman after the actor presented the Breakthrough Awards, a science prize co-founded by Mr Zuckerberg. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_2#char=0,553>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "553"^^xsd:nonNegativeInteger ;
+        nif:isString    "It is supported by Oscar-winning songwriter Hansard and Oscar-nominated film director Jim Sheridan. Hundreds of people gathered outside the building on Tuesday afternoon as Hansard led supporters in an Irish rendition of the American song This Land is Our Land. Earlier, the High Court was told the receivers were very sensitive to the plight of the homeless, Irish national broadcaster RTÉ reported. Their barrister said there were enough facilities available for the number of homeless people in Dublin at the moment, according to Dublin City Council " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_3#char=0,321>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "321"^^xsd:nonNegativeInteger ;
+        nif:isString    "So for the new study, which was published on Monday in JAMA Internal Medicine, researchers at Loughborough University in England and other institutions decided to delve into the exercise routines of tens of thousands of men and women already participating in the Health Survey for England and the Scottish Health Survey. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_4#char=0,541>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "541"^^xsd:nonNegativeInteger ;
+        nif:isString    "JFK is a 1991 American historical legal-conspiracy thriller film directed by Oliver Stone. It examines the events leading to the assassination of President John F. Kennedy and alleged cover-up through the eyes of former New Orleans district attorney Jim Garrison (Kevin Costner). The film was adapted by Stone and Zachary Sklar from the books On the Trail of the Assassins by Jim Garrison and Crossfire: The Plot That Killed Kennedy by Jim Marrs. Stone described this account as a \"counter-myth\" to the Warren Commission's \"fictional myth.\" " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_5#char=0,234>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "234"^^xsd:nonNegativeInteger ;
+        nif:isString    "If Manchester United sign Paul Pogba's international team-mate Antoine Griezmann next summer they will give themselves a French connection that would be the envy, not just of the rest of the Premier League, but of the rest of Europe. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_6#char=0,529>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "529"^^xsd:nonNegativeInteger ;
+        nif:isString    "She identified 17th century scientific illustrator Maria Sibylla Merian as one of her favorite examples. Merian, born in 1647 in Frankfurt, Germany, grew up in a time when butterflies were presumed to have demonic qualities. Nonetheless, she fell in love with the winged creatures and devoted her life to understanding their physical composition and life cycles through intensive observation. She chronicled her findings in scientific illustrations, staggering works of art that revealed previously unknown biological processes. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_7#char=0,238>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "238"^^xsd:nonNegativeInteger ;
+        nif:isString    "Chicago is the home of the United States Soccer Federation, but apparently not its kind of town when it comes to potential sites for the 2018 or the 2022 World Cup. San Francisco and the rest of Northern California are also on that list. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_8#char=0,253>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "253"^^xsd:nonNegativeInteger ;
+        nif:isString    "Frequent exercise is generally thought to be better than fewer workouts at, for instance, preventing and controlling Type 2 diabetes, says Hannah Arem, an epidemiologist at George Washington University who wrote a commentary to accompany the new study. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_9#char=0,320>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "320"^^xsd:nonNegativeInteger ;
+        nif:isString    "When Daniel Ocean is released from prison in New Jersey, his next heist is already planned. Danny's target are three Las Vegas casinos : The Bellagio, the Mirage and the MGM Grand. They all belong to ruthless entrepreneur Terry Benedict, who, by the way, also shows a certain interest in Danny's beautiful ex-wife Tess. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_10#char=0,470>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "470"^^xsd:nonNegativeInteger ;
+        nif:isString    "In an interview with state television broadcast late on Sunday, Zhang Xiaoming, the head of China's Liaison Office in Hong Kong, said Beijing will not interfere in matters that purely affect Hong Kong's autonomy. Chinese President Xi Jinping told outgoing Hong Kong Chief Executive Leung Chun-ying last month that China's central government strongly supports efforts by the Hong Kong government to curb moves by some promoting independence for the global financial hub. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_11#char=0,485>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "485"^^xsd:nonNegativeInteger ;
+        nif:isString    "Fans ultimately complain that the dysfunction traces to Dolan, and they are not all wrong about that. For one thing, he’s the genius who chose Anthony over Coach Mike D’Antoni in 2012 when D’Antoni complained that building an offense around Anthony’s isolation skills in the evolving N.B.A. was akin to driving cross-country in a covered wagon. Now D’Antoni is thriving in Houston. The bailouts from New York — Jackson’s included if there is no playoff run — may have only just begun. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_12#char=0,340>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "340"^^xsd:nonNegativeInteger ;
+        nif:isString    "People walk past the Reserve Bank of India (RBI) head office in Mumbai, India, November 9, 2016. India's Prime Minister Narendra Modi shocked the country on Nov. 8 by abolishing 500 and 1,000 rupee notes, which accounted for 86 percent of the cash in circulation. RBI raises daily limit of withdrawals from ATMs to 4,500 rupees from 2,500. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_13#char=0,523>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "523"^^xsd:nonNegativeInteger ;
+        nif:isString    "U.S. District Judge Charles Breyer announced the settlement during a hearing in San Francisco. Breyer on Tuesday also said German engineering company Robert Bosch GmbH [ROBG.UL], which produced the software for the VW diesels, has agreed in principle to settle civil allegations made by U.S. diesel vehicle owners. Cynthia Giles, U.S. Environmental Protection Agency assistant administrator, estimated that the costs of buybacks, fixes and diesel offsets agreed to by VW in the new settlement amounted to about $1 billion. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_14#char=0,279>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "279"^^xsd:nonNegativeInteger ;
+        nif:isString    "Two friends in their early 20s ( Hill and Teller ) living in Miami Beach during the Iraq War exploit a little-known government initiative that allows small businesses to bid on U.S. Military contracts. Starting small, they begin raking in big money and are living the high life. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_15#char=0,362>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "362"^^xsd:nonNegativeInteger ;
+        nif:isString    "American singer Richard Marx has said he had to restrain a fellow passenger on a Korean Air flight, after the man allegedly attacked others onboard. The incident happened as Marx and his wife, Daisy Fuentes, were travelling from Hanoi to Seoul on Tuesday. The man was arrested upon landing and South Korean police said he was drunk, reported Yonhap news agency. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_16#char=0,517>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "517"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Scottish government believes that, short of full EU membership, the \"least worst outcome for the UK as a whole\" would be to retain full membership of the European Single Market through the European Economic Area (EEA), and to remain in the Customs Union. The paper argues that if the UK does not remain in those European unions and bodies, the UK government should support Scotland remaining within the European Single Market. For businesses in Scotland to maintain access to the EU market of 500 million people. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_17#char=0,223>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "223"^^xsd:nonNegativeInteger ;
+        nif:isString    "Phil Jackson left Hornacek — a temperate but nonsense-averse man already struggling to navigate the space between an increasingly vulnerable Jackson and his sulking stars, Derrick Rose and Carmelo Anthony — to hem and haw. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_18#char=0,341>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "341"^^xsd:nonNegativeInteger ;
+        nif:isString    "From the largest elephant to the smallest shrew, the city of Zootopia is a mammal metropolis where various animals live and thrive. When Judy Hopps becomes the first rabbit to join the police force, she quickly learns how tough it is to enforce the law. Determined to prove herself, Judy jumps at the opportunity to solve a mysterious case. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_19#char=0,472>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "472"^^xsd:nonNegativeInteger ;
+        nif:isString    "After the death of Superman, the leader of a secret agency Amanda Waller convinces the government to recruit super-villains imprisoned in Belle Eve to protect the world. She summons the hitman Deadshot; The Joker's girlfriend and former psychiatrist Harley Quinn; the pyrokinetic Diablo; the bank thief Captain Boomerang; the mutant Killer Croc; the criminal Slipknot; and the witch Enchantress that possessed the former archaeologist June Moone to form The Task Force X. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_20#char=0,197>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "197"^^xsd:nonNegativeInteger ;
+        nif:isString    "In Europe , Leicester City somehow held off the best talent that richer clubs with worldwide followings could deploy, becoming the unlikeliest and most endearing Premier League champion in memory. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_21#char=0,349>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "349"^^xsd:nonNegativeInteger ;
+        nif:isString    "When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There Jake learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid \"Na'vi\" in order to mine for the precious material scattered throughout their rich woodland. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_22#char=0,461>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "461"^^xsd:nonNegativeInteger ;
+        nif:isString    "US President-elect Donald Trump has appointed economist Peter Navarro, a fierce critic of China, as the head of a new national trade body. He will lead the White House National Trade Council, and serve as director of trade and industrial policy. Mr Navarro advised Mr Trump during the campaign. His books include The Coming China Wars and Death by China. Mr Trump has also named billionaire investor Carl Icahn to become a special adviser on regulatory reform. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_23#char=0,451>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "451"^^xsd:nonNegativeInteger ;
+        nif:isString    "On Thursday, January 15th, 2009, the world witnessed the \"Miracle on the Hudson\" when Captain Chesley Sullenberger, nicknamed \"Sully\", glided his disabled plane onto the frigid waters of the Hudson River, saving the lives of all 155 aboard. However, even as Sully was being heralded by the public and the media for his unprecedented feat of aviation skill, an investigation was unfolding that threatened to destroy his reputation and Chesleys career. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_24#char=0,334>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "334"^^xsd:nonNegativeInteger ;
+        nif:isString    "Emma Stone sure knows the best way around a hackneyed red carpet question. The “La La Land” star stopped to speak with Ryan Seacrest on the red carpet ahead of Sunday’s Golden Globes and was, of course, faced with the ever-predictable prompt: “Tell me about your dress.” Stone, the fabulous wonder that she is, had the perfect reply. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_25#char=0,537>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "537"^^xsd:nonNegativeInteger ;
+        nif:isString    "On the day that Hurricane Katrina hits New Orleans, elderly Daisy Williams (nee Fuller) is on her deathbed in a New Orleans hospital. At her side is her adult daughter, Caroline. Daisy asks Caroline to read to her aloud the diary of Daisy's lifelong friend, Benjamin Button. Benjamin's diary recounts his entire extraordinary life, the primary unusual aspect of which was his aging backwards, being diagnosed with several aging diseases at birth and thus given little chance of survival, but who does survive and gets younger with time. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_26#char=0,433>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "433"^^xsd:nonNegativeInteger ;
+        nif:isString    "In London, Sherlock Holmes and his partner Dr. John Watson captures the follower of black magic and serial killer Lord Blackwood that has already killed five women when he is near to kill his sixth victim. Blackwood is sentenced to be strung up and Dr. Watson attests his death. However, Blackwood mysteriously returns from the afterlife and Inspector Lestrade summons Sherlock Holmes to help the Scotland Yard in the investigation. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_27#char=0,188>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "188"^^xsd:nonNegativeInteger ;
+        nif:isString    "Florence Nightingale was born on 12 May 1820 into a rich, upper-class, well-connected British family at the Villa Colombaia, in Florence, Italy, and was named after the city of her birth. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_28#char=0,288>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "288"^^xsd:nonNegativeInteger ;
+        nif:isString    "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_29#char=0,319>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "319"^^xsd:nonNegativeInteger ;
+        nif:isString    "Baburao is a landlord in India, who is very near-sighted, and always in financial trouble. Baburao has a tenant named Raja, who has not paid his rent for several months. Baburao also has anther tenant named Shyam, who has come to the city to look for a job in his late father's place, but is unable to find employment. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_30#char=0,401>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "401"^^xsd:nonNegativeInteger ;
+        nif:isString    "This type of behavior has been a consistent Knicks malpractice that has turned distressingly malignant during the listing team presidency of Phil Jackson. For his part, Jackson promised an era of availability, of détente with reporters covering the team. But where was he late Monday when followers of the N.B.A. worldwide were checking Twitter to find out what the Knicks knew of Rose’s whereabouts? " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_31#char=0,545>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "545"^^xsd:nonNegativeInteger ;
+        nif:isString    "Zuzana Ruzickova endured three concentration camps in World War Two, including Auschwitz, and was persecuted by the Communists in Czechoslovakia in the years that followed. But not only did she survive, she also went on to become one of the world's leading harpsichordists. \"I was not a strong child, but I was in love with music from the beginning,\" says Zuzana Ruzickova, who turns 90 next month. Born in Czechoslovakia on 14 January 1927 to a prosperous Jewish family, she had a happy childhood but was sickly and suffered from tuberculosis. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_32#char=0,625>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "625"^^xsd:nonNegativeInteger ;
+        nif:isString    "In 1976, director Derek Jarman's debut feature film Sebastiane prompted newspaper outrage with its plentiful nudity, gay Roman soldiers and Latin dialogue. Jarman was one of Britain's boldest directors - and his partner says he would have adored the freedom of modern film-making. Keith Collins caught Derek Jarman's eye in 1986 at a festival of gay and lesbian cinema in Newcastle. Jarman was instantly smitten with the much younger computer programmer, then employed on secret Ministry of Defence projects. \"I'd gone with a gang of mates to see Gus Van Sant's Mala Noche and Wieland Speck's film Westler,\" Collins recalls. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_33#char=0,413>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "413"^^xsd:nonNegativeInteger ;
+        nif:isString    "The German federal prosecutor's office said Amri's fingerprints had been found in a number of places around the lorry's cab. \"At this point in the investigation, we assume Anis Amri drove the truck,\" said spokeswoman Frauke Koehler. She also confirmed police raids had been carried out \"in various locations\" in Berlin and in North Rhine-Westphalia state where the suspect \"was living and staying for some time\". " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_34#char=0,172>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "172"^^xsd:nonNegativeInteger ;
+        nif:isString    "“Reductions in risk were similar in the weekend warriors and the regularly active,” says Gary O’Donovan, a research associate at Loughborough University who led the study. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_35#char=0,455>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "455"^^xsd:nonNegativeInteger ;
+        nif:isString    "The former Rangers owner Craig Whyte has pleaded not guilty to two charges, including one of fraud, in relation to his purchase of the club in 2011. Mr Whyte's lawyer entered the plea during a hearing at the High Court in Edinburgh on Thursday morning. The 45-year-old, who lives in London, faces a charge of fraud and a second allegation under the Companies Act. A trial is scheduled to go before judge Lady Stacey at the High Court in Glasgow in April. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_36#char=0,636>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "636"^^xsd:nonNegativeInteger ;
+        nif:isString    "Trump, who says Washington is \"broken\" and controlled by special interests, has largely eschewed technocrats with long government experience. Commentary: Mr. Trump, here’s what other presidents learned from the CIA. A former senior U.S. official who knows Rex Tillerson, the former Exxon Mobil CEO who is Trump's nominee for secretary of state, and Marine General James Mattis, Trump's pick for defense secretary, predicted a massive clash of egos in the cabinet. Tillerson and Mattis are \"accustomed to dominating whatever space they find themselves in, and that probably will now include the Situation Room and even the Oval Office.\" " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_37#char=0,240>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "240"^^xsd:nonNegativeInteger ;
+        nif:isString    "“A nasty woman is someone who refuses to be bound by the place society defined for her, someone who blazes her own trail,” Deborah Gaston, director of education at the National Museum of Women in the Arts, explained to The Huffington Post. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_38#char=0,480>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "480"^^xsd:nonNegativeInteger ;
+        nif:isString    "Derek Carr woke up a struggling Oakland offense by throwing two touchdown passes in the fourth quarter as the Raiders capped a successful trip to Mexico with a 27-20 victory over the Houston Texans on Monday night. Oakland had been held to 120 yards through three quarters, with the running game going nowhere and Carr finding few open receivers downfield. But that suddenly changed in the fourth quarter, and the Raiders won a fourth straight game for the first time since 2002. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_39#char=0,335>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "335"^^xsd:nonNegativeInteger ;
+        nif:isString    "Buddy was a baby in an orphanage who stowed away in Santa's sack and ended up at the North Pole. Later, as an adult human who happened to be raised by elves, Santa allows him to go to New York City to find his birth father, Walter Hobbs. Hobbs, on Santa's naughty list for being a heartless jerk, had no idea that Buddy was even born. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_40#char=0,454>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "454"^^xsd:nonNegativeInteger ;
+        nif:isString    "In late nineteenth century Vienna, renowned illusionist Eisenheim is reunited with the Duchess von Teschen when she is volunteered from the audience to participate in an illusion during one of his performances. Despite having not seen each other in fifteen years when they were teenagers, they almost immediately recognize each other as Eduard Abramovich and Sophie von Teschen, they who had a doomed romance at that time due to their class differences. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_41#char=0,435>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "435"^^xsd:nonNegativeInteger ;
+        nif:isString    "In the Battle of Thermopylae of 480 BC an alliance of Greek city-states fought the invading Persian army in the mountain pass of Thermopylae. Vastly outnumbered, the Greeks held back the enemy in one of the most famous last stands of history. Persian King Xerxes lead a Army of well over 100,000 ( Persian king Xerxes before war has about 170,000 army) men to Greece and was confronted by 300 Spartans, 700 Thespians, and 400 Thebans. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_42#char=0,452>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "452"^^xsd:nonNegativeInteger ;
+        nif:isString    "The producer of Harry Potter and the Cursed Child is among the nominees at this year's The Stage awards. Sonia Friedman is shortlisted for producer of the year - an award she won at the event in both 2016 and 2015. Her other recent credits include Dreamgirls, Funny Girl and 1984. Kenny Wax, who produced The Play That Goes Wrong, and Fiery Angel, which produced the Kenneth Branagh Theatre Company West End season, are also nominated in the category. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_43#char=0,715>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "715"^^xsd:nonNegativeInteger ;
+        nif:isString    "We will remember 2016 as a year of turbulence illuminated by flashes of populist anger - the year of the coming of Donald Trump and the UK's decision to leave the European Union. It was felt in Italy too, where voters used a constitutional referendum to unseat a prime minister - and it may yet be felt in France where Marine Le Pen, standard bearer of the far-right National Front, seems certain at least to make it to the second round of the presidential elections next year. The common thread from Peoria to Pinner to Perugia was a surge of angry resentment at establishment politicians - a populist revolt against being told what it is acceptable to think about issues like globalisation, migration and Europe. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_44#char=0,340>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "340"^^xsd:nonNegativeInteger ;
+        nif:isString    "It is the year 1250 B.C. during the late Bronze age. Two emerging nations begin to clash after Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband, Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_45#char=0,248>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "248"^^xsd:nonNegativeInteger ;
+        nif:isString    "Christoph Waltz also portrayed computer genius Qohen Leth in the film The Zero Theorem (2013), American plagiarist Walter Keane in the biographical film Big Eyes (2014), and 007's nemesis and head of SPECTRE Ernst Stavro Blofeld in Spectre (2015). " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_46#char=0,481>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "481"^^xsd:nonNegativeInteger ;
+        nif:isString    "The prime minister has said people should go about their business as usual and not be \"cowed by terrorists\" after the Christmas market attack in Germany. Theresa May told the London Evening Standard it was important to \"send a clear message that people should \"carry on with our lives as usual\". She added that the police and security services were \"unsung heroes\". Twelve people were killed on Monday when a truck was driven into a crowd at the Breitscheidplatz market in Berlin. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_47#char=0,284>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "284"^^xsd:nonNegativeInteger ;
+        nif:isString    "Neymar da Silva Santos Júnior was having an unusually quiet first half when the ball was poked through to him. It was a few minutes before halftime of the FIFA Confederations Cup final between host Brazil and the world and European champion Spain at the refurbished Maracanã stadium. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_48#char=0,433>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "433"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Nintendo Entertainment System was an instant hit when it launched in 1985, and 26 years later, the retro gaming system is still a hot commodity. According The NPD Group, an industry-tracking firm, 196,000 NES Classic Mini units were sold in November – the system’s first month on the market. But gamers looking to toss barrels in Donkey Kong or battle King Koopa will have to wait, as these consoles have sold out across the US. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_49#char=0,315>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "315"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lt Gen Ben Hodges said Russia's \"disregard for civilian casualties... is not the conduct of a nation that wants to be treated like a superpower\". Russia's defence minister said on Thursday that its air force had killed 35,000 fighters in Syria. But Russia has been accused of using heavy weapons in civilian areas. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_50#char=0,572>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "572"^^xsd:nonNegativeInteger ;
+        nif:isString    "Since it was founded in 1987, the National Museum of Women in the Arts has worked to preserve and share the legacies of such subversive heroines, specifically those engaged in creative work. The only major museum in the world dedicated to celebrating the history of women-identified artists, the NMWA works to derail the longstanding habit of overlooking, undermining and erasing the work of women from the canon. If you won’t be in Washington, D.C., for the Women’s March, don’t fret. The best part about the NMWA is that, in essence, every tour is a “Nasty Women” tour. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_51#char=0,366>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "366"^^xsd:nonNegativeInteger ;
+        nif:isString    "Shares in Italy's third largest bank, Monte dei Paschi di Siena, closed 7.4% lower on Thursday as the markets awaited news of a rescue. The bank looks increasingly likely to be bailed out by the government after a deadline for recapitalisation passed. The Italian parliament has authorised the government to use more than $20bn (£16.8bn) to support the bank sector. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_52#char=0,273>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "273"^^xsd:nonNegativeInteger ;
+        nif:isString    "Interestingly, these weekend warriors were mostly male, almost half exercised only once per week, and an overwhelming majority, almost 90 percent, reported that their exercise occurred during vigorous sports like competitive running and cycling or team sports like soccer. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_53#char=0,366>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "366"^^xsd:nonNegativeInteger ;
+        nif:isString    "As Derrick Rose said Tuesday upon his return from a one-night detour to Chicago, “things happen.” This is not to argue that Rose had no acceptable reason — a “family issue,” he said — for missing the Knicks’ 110-96 loss to the New Orleans Pelicans at Madison Square Garden on Monday night, the team’s eighth defeat in nine games in a season turning familiarly sour. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_54#char=0,80>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "80"^^xsd:nonNegativeInteger ;
+        nif:isString    "Germany is a member of the United Nations, NATO, the G8, the G20, and the OECD. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_55#char=0,874>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "874"^^xsd:nonNegativeInteger ;
+        nif:isString    "Samsung Electronics Co's (005930.KS) sponsorship of the equestrian-athlete daughter of a long-time friend of President Park Geun-hye has helped to land South Korea's top company in the center of the country's influence-peddling scandal. Samsung agreed last year to pay $18 million to Core Sports International GmbH, a consulting firm controlled by Park's friend Choi Soon-sil, who is in jail and faces charges of abuse of power and fraud in a criminal trial that began this month. Reuters has reviewed a copy of Samsung Electronics’ August 2015 contract with Core Sports to sponsor the team at a German facility in Biblis, a small town south of Frankfurt. Neither party announced the sponsorship. Sung-Kwan Park, a Frankfurt-based lawyer who was Core's managing director, declined to discuss details of the deal when approached by Reuters, citing attorney-client privilege. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_56#char=0,530>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "530"^^xsd:nonNegativeInteger ;
+        nif:isString    "Prince Charles urged people to remember the story of the Nativity this Christmas, which was about \"the fleeing of the Holy Family to escape violent persecution\". He asked listeners to remember that the Prophet Mohammed migrated from Mecca to Medina because he was \"seeking the freedom for himself and his followers to worship\". The Prince said: \"Whichever religious path we follow, the destination is the same - to value and respect the other person, accepting their right to live out their peaceful response to the love of God.\" " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_57#char=0,373>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "373"^^xsd:nonNegativeInteger ;
+        nif:isString    "Robert De Niro, thought of as one of the greatest actors of all time, was born in Greenwich Village, Manhattan, New York City, to artists Virginia (Admiral) and Robert De Niro Sr. His paternal grandfather was of Italian descent, and his other ancestry is Irish, German, Dutch, English, and French. He was trained at the Stella Adler Conservatory and the American Workshop. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_58#char=0,489>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "489"^^xsd:nonNegativeInteger ;
+        nif:isString    "Calogero Anello is a nine-year-old child living in the Bronx - notorious for gangster bars, racist people and an aggressive nature. Calogero witnesses a shooting in the street involving local big shot gangster, Sonny, but refuses to betray him to the police.  Sonny grows fond of the boy and begins to teach him how things are conducted on the streets. Calogero's father is a working man who wants his child to grow up and make his money honestly, and does not want him to mix with Sonny. " .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_59#char=0,331>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "331"^^xsd:nonNegativeInteger ;
+        nif:isString    "Hyundai Motor sold 4.86 million vehicles compared with its target of 5.01 million last year. Kia Motors sold 3.02 million vehicles, shy of its goal of 3.12 million. The 78-year-old chief said the automakers will launch more than 10 new models every year, including a new SUV for advanced markets and a Genesis G70 sedan this year. " .

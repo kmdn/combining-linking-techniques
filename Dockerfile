@@ -20,6 +20,7 @@ ADD ROOT.war /usr/local/tomcat/webapps/
 # run program on startup
 # CMD ["python", "linker_recommender.py"]
 ADD evaluation_datasets/ /usr/local/tomcat/default/resources/data/evaluation_datasets/
+ADD other_datasets/* /usr/local/tomcat/default/resources/data/evaluation_datasets/
 
 # Expose port 8080 (can also be done in docker-compose.yml)
 EXPOSE 8080

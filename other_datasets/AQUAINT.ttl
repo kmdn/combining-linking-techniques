@@ -1,0 +1,550 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_0#char=0,1532>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1532"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Syria opposes any attempt to overthrow Saddam Hussein\n\n  Syria   opposes attempts by the  United States   and  Britain   to overthrow  Iraqi   leader  Saddam Hussein  , Syrian Vice-President  Abdul-Halim Khaddam   said Thursday. \n\n Such moves would \"serve  Israel  's design to disintegrate the  Arab   and  Islamic   world,'' Khaddam said after receiving his Iranian counterpart,  Hassan Habibi  , at  Damascus airport  . \n\n The United States has granted dlrs 97 million to Iraqi opposition groups. British and American officials hosted meetings in  London   last month of 16 Iraqi dissident groups in a bid to promote cooperation among them. \n\n \"This is a very dangerous issue ... No state in the world has the right to interfere in the internal affairs of any other country,'' Khaddam said. \n\n Habibi said the Iraqi and  Palestinian   questions were of great concern to Iran and Syria: \"There should be coordination between the two countries over these issues.'' \n\n The official Iranian news agency, IRMA, said the Iraqi and Palestinian issues would be the focus of talks between Habibi and Khaddam at the meeting of the Syrian-Iranian Supreme Committee. The committee meets biannually to promote cooperation in foreign affairs, trade and technology. \n\n Habibi, who is accompanied by  Iranian Foreign Minister Kamal Kharrazi  , is expected to meet Syrian President  Hafez Assad   during his three-day visit. \n\n Syria is Iran's closest Arab ally and supported the Persian state during the 1980-88  Iran-Iraq war . str-bm-jbm \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_1#char=0,1499>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1499"^^xsd:nonNegativeInteger ;
+        nif:isString    "   German zoo hopes court will allow it to accept baby elephants\n\n The  Dresden    Zoo   went to court Tuesday to challenge  Environment Minister Juergen Trittin's   order forbidding the import of four baby  elephants   taken from the wild in  Africa   and abused. \n\n Zoo director Hubert Luecker said the complaint was filed with an administrative court in  Cologne  . \n\n The elephants, which were to be sent this month to the Dresden and  Erfurt   zoos in eastern  Germany  , were part of a group of 30 young elephants captured in August from herds in  Botswana   and taken to a  South African   farm. \n\n A South African judge ruled early this month that the animals had been abused and deprived of water at the farm. He granted temporary custody to the  National Society for the Prevention of Cruelty to Animals  . \n\n But while the judge approved the export of four baby elephants to Germany and three to  Switzerland  , Trittin last week said Germany would protest the abuse of animals by not accepting them in its zoos. \n\n Others argue the elephants may face a worse fate if they don't come to Germany. \n\n Norbert Otto, a federal lawmaker from Erfurt, demanded in  parliament   Tuesday that Trittin take steps to prevent the animals from being  put to sleep   in South Africa. \n\n In addition, the cultural minister of  Saxony , of which Dresden is the capital, asked the state's 740,000 school children to write letters of protest urging Tritten to allow the elephants into Germany. (aet-pfg) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_2#char=0,1499>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1499"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Norwegian company moves ahead with clean power plant\n\n The  Norsk Hydro ASA   concern announced plans Friday to build a  hydrogen  -burning  power plant   that it says will produce  electricity   with virtually no climate-damaging  emissions  . \n\n The 51-percent  state-owned company   notified the  Norwegian Water Resources and Energy Directorate   of plans to build the plant, to be called HydroKraft, pending approval by government agencies. \n\n The company said if it receives the proper approvals in 1999, construction of the plant would be completed during 2002 and production startup would occur in early 2003. \n\n Earlier this year, the company announced a new technology that would allow it to use clean-burning hydrogen to generate electricity. The hydrogen for the plant would be extracted from  natural gas  . \n\n Norsk Hydro, a major  petroleum   producer, now says studies have shown the proposal to be economically viable. It also said the plant's  carbon dioxide   emissions would be 90 percent lower than plants using natural gas. \n\n  Norway   is the world's second-largest oil exporter, and also produces vast amounts of natural gas from its offshore fields. Virtually all of the country's electricity now comes from  hydroelectric plants  . \n\n Under the company's plans, natural gas, air and water would be mixed to produce hydrogen,  nitrogen   and carbon dioxide. \n\n Norsk Hydro wants to build the plant at Karmoey, an island about 500 kilometers (300 miles) west of  Oslo . \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_3#char=0,1404>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1404"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Police identify substance in  tea   poisoning case\n\n The poison that sickened 10 Japanese company employees after they drank tea brewed from the same water pot was a  toxic    sodium compound   that affects the  central nervous system  ,  police   said Tuesday. \n\n Police still had no clues to who might have put the chemical in the pot, which had been filled with water between Friday night and Monday, they added. \n\n The 10 workers at Xyence Co., a  wood preservative   company in  Niigata  , 256 kilometers (159 miles) northwest of  Tokyo  , were hospitalized Monday after suffering  nausea   and  numbness   during their morning tea break. \n\n The case gave Japan another shock two weeks after  curry   laced with  cyanide   and  arsenic   killed four people at a festival in southwestern Japan. It also raised fears of  copycat   attacks. \n\n Lab tests on the tea revealed traces of  sodium azide  , a chemical used in many industrial products, including  air-bag   mechanisms, said police spokesman Masashi Toma. \n\n The victims of the poisoning were in stable condition, but three suffered mild  liver disorders   Tuesday, said Yasuo Hirose, an official at the  Niigata City   Hospital. \n\n The  March 1995    nerve gas   attack on Tokyo subways carried out by the  Aum Shinri Kyo  religious cult has made Japan particularly wary of poisoning incidents. The subway gassing killed 12 people. (js) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_4#char=0,1399>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1399"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Nikhil Chakravarty, a top Indian political columnist, dead at 74\n\n Nikhil Chakravarty, one of  India  's best known  journalist  s, has died. He was 74. \n\n Chakravarty was suffering from  brain cancer   and died in hospital on Saturday, his family said. \n\n  Politics   was his forte and his columns appeared in leading  Indian newspapers   and magazines. \n\n Chakravarty also started a weekly news magazine, \"Mainstream,'' in 1962 and edited it for more than three decades. \n\n Last year, the government appointed him chief of  Prasar Bharati  , an autonomous  corporation   set up to end government control of radio and television. \n\n Chakravarty declined a top government award in 1990, saying no journalist should be identified with the governing establishment. \n\n He graduated from  Calcutta University   and studied at  Oxford University's Merton College   in England. \n\n Chakravarty taught history at Calcutta University in the 1930s before taking to  journalism   as correspondent of a weekly brought out by the  Communist Party of India  . \n\n He later joined the CPI and remained a member until 1978. \n\n He closed the Mainstream weekly for a while when Prime Minister  Indira Gandhi  imposed emergency rule in India 1975-77, jailing political opponents and imposing censorship on newspapers and magazines. \n\n Chakravarty was born November 3, 1913, in India's northeastern state of Assam. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_5#char=0,1339>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1339"^^xsd:nonNegativeInteger ;
+        nif:isString    "   REPEATING Protectively\n\n  Iran   will protest to the International Court of Justice at  the Hague   and other global bodies about the U.S.-funded  Radio Free Europe  , the Iran Daily reported Monday. \n\n It quoted  Foreign Minister    Kamal Kharrazi   as saying the radio \"was set up to interfere in Iran's internal affairs.'' \n\n It did not say when the complaints will be filed. The English-language daily also did not say which organizations Iran will approach besides the  ICJ   in  the Netherlands  . \n\n On Tuesday, Iran recalled its ambassador from  Prague   to protest the  Czech   government's assistance to the radio and said it would reduce the level of its economic and political cooperation with Prague. \n\n The American-sponsored station also began broadcasts directed to  Iraq   on Friday. In a trial period of several weeks, the station will broadcast one 30-minute program a day to Iran and Iraq. \n\n The  Farsi  -language service to Iran was approved by the Czech government in August. \n\n Radio Free Europe began transmitting from  Munich, Germany  , in 1951, spreading uncensored news to  Soviet  -controlled countries behind the  Iron Curtain   during the  Cold War   between the West and the  Communist  East. \n\n It moved its headquarters to Prague in 1995 following the collapse of communism six years earlier. ti/vj \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_6#char=0,1337>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1337"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Cult  guru  's lawyers lash at prosecutors, court\n\n Attorneys for a  cult   guru accused of murder in the  nerve gas   attack on  Tokyo   subways denounced his trial Thursday as \"unfair'' because some of the prosecutors' charges are contradicted by testimony from their own witnesses. \n\n  Shoko Asahara  , the leader of the  Aum Shinri Kyo   cult, is on trial on 17 charges in the March 20, 1995  sarin attack   that killed 12 people and sickened thousands. \n\n Other cult leaders have also been charged in the  gassing   as well as in other slayings. \n\n Osamu Watanabe, Asahara's chief  defense   lawyer, said the trial should not be allowed to go on. \n\n \"We must wonder why such abnormal and unfair proceedings are tolerated. The court has been negligent,'' Watanabe told the  Tokyo District Court  . \n\n The prosecutors say Asahara, accused of masterminding the subway gassing, decided on the attack on March 18, 1995 while riding in a car with his followers. \n\n But Watanabe pointed out that top cultist Yoshihiro Inoue, a key witness for the  prosecution , told the court that Asahara was still undecided on the timing of the attack at that time. Inoue quoted Asahara as saying that he needed to meditate about it. \n\n Last April, the defense raised similar objections, but the prosecutors refused to change their statement. (cw) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_7#char=0,1419>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1419"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Bank Fires Seven for E-Mail Misuse\n\n CHARLOTTE (AP) --  First Union   Corp. says it has fired seven employees within the last week for sending  pornographic   and other inappropriate  e-mail  . \n\n \n\n First Union, the nation's sixth-largest bank, confirmed the firings Friday, but company spokeswoman Sandy Deem would not release more details. \n\n \n\n The bank \"will not tolerate conduct that interferes with another person's work performance or creates an intimidating, offensive or  hostile environment  ,'' Deem said. \n\n \n\n  The Charlotte Observer   reported Friday that employees at the University Research Park office circulated e-mail that included videos of people having sex and other material of a sexual nature. The company stumbled on the e-mail when the volume of messages became so heavy it slowed down a  server  . \n\n \n\n One employee fired within the past week from the bank's  home-equity   division was called into an office, shown a stack of e-mail and fired on the spot, an employee told the newspaper. \n\n \n\n First Union, a  Fortune 100   corporation, joins a number of companies taking swift and severe action for violations of company e-mail policy. \n\n \n\n Companies are seeking to protect themselves from  legal claims   that their work environment is hostile. An increasing number of lawsuits alleging  sexual harassment  have based claims in part on e-mails taken from company computer systems. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_8#char=0,1353>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1353"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Prosecutor: Botha may still stand trial\n\n A  prosecutor   on Friday left open the possibility that former apartheid President  P.W. Botha   would be put on trial for abuses committed during  white rule  . \n\n Prosecutor Jan D'Oliveira said he currently has insufficient evidence to prosecute Botha, but that information collected by the  Truth and Reconciliation Commission (South Africa)  , which investigated apartheid-era abuses, still must be evaluated to ascertain whether charges would ultimately be brought. \n\n Last month, the Truth Comission issued a landmark report on its findings. It said Botha had ordered the 1987 bombing of the  African National Congress  ' London headquarters and the 1988 bombing of a  Johannesburg   building housing an anti-apartheid group. \n\n When Botha was head of state in the 1980s, thousands of people were detained without trial. Many were tortured and others killed. \n\n The commission can grant  amnesty   to those who fully confess to politically motivated abuses committed during apartheid. Botha has said he has nothing to confess and has not sought amnesty. \n\n Earlier this year, Botha was convicted of  contempt of court   for refusing to testify before the commission. He was handed a suspended one-year jail sentence and a 10,000  rand  (dlrs 5,700) fine. He has appealed the decision. \n\n (sapa-aos) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_9#char=0,1548>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1548"^^xsd:nonNegativeInteger ;
+        nif:isString    "   The Nation's Weather\n\n  Severe thunderstorms   were forecast for much of the  Gulf Coast  , from  Louisiana   to  Georgia   and northward to  Tennessee  .  Rain   was forecast in  the Carolinas   by tonight. \n\n  Lightning  , large  hail  ,  wind   of 60 mph and more than 2 inches of rain were possible. Lighter amounts were expected in the  Ohio Valley  . \n\n The same storm system roared through Texas and  Oklahoma   on Thursday, hitting areas with wind, hail and heavy rain. Some flights at  Dallas-Fort Worth International Airport   were delayed up to seven hours. \n\n In the  Northeast  , as much as 8 inches of sunnyow were possible in the  Adirondack   and  Green Mountains  . sunnyow was forecast from northwesterain  Pennsylvania   into  Maine  . Gusty winds were expected to keep  wind-chill   readings well below  freezing  . \n\n Mostly quiet conditions were forecast for  the West  ,  Rockies  ,  Southeast   and northerain  Plains   today. Showers were possible in the Southerain  Califorainia   and along the coasts of  Washington   and  Oregon  . \n\n Highs today were forecast to reach the 30s in New England; the 40s in the Northeast,  Midwest  ,  Great Lakes   and northerain Rockies; the 50s in  Northwest  ,  mid-Atlantic states   and northerain Plains; and the 60s, 70s and 80s in the Southeast, Southwest and southerain Plains. \n\n The highest  temperature   reported in the continental United States on Thursday was 90 degrees in the Texas communities of  Cotulla   and  Alice  . The low was minus-4 at  Grand Marais, Minn . \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_10#char=0,1377>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1377"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Businessman killed in Siberian town\n\n A  Russian   businessman was killed on his way to work Wednesday by an unidentified gunman in what appeared to be an  organized crime   killing, according to news reports. \n\n Yuri Zinin, the head of  Sibneft   Company was shot in the back as he walked out of his apartment building in the town of Leninsk-Kuzntesky in the  Kemerovo   region of central  Siberia  , Russian news agencies quoted local police as saying. \n\n Zinin's company has the same name as one of  Russia  's largest oil producers, Sibneft, controlled by controversial business  mogul    Boris Berezovsky  . But the two companies are separate. \n\n Zinin's Sibneft was locally-based and mostly involved in selling  oil products   and  coal  . Kemerovo is one of Russia's main  coal-mining   regions. \n\n Police launched a search for the killer who fled. Officials wouldn't comment on possible motives for the murder. \n\n There are hundreds of  contract murder  s in Russia every year as  mobsters   fight for control of profitable businesses. Only a small number of such killings are ever solved. \n\n The small town of  Leninsk-Kuznetsky   became known nationwide last year, when the city  mayor   was arrested on  tax fraud   and  embezzlement   charges. Mayor  Gennady Konyakhin  , also accused of being linked to the  mob  , is in custody awaiting  trial . \n\n (vi/ren) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_11#char=0,1357>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1357"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Museum To Return 3 Stolen Works\n\n  LOS ANGELES   (AP) --  The J. Paul Getty Museum   is returning three ancient  works of art   to  Italy   after determining they were stolen. \n\n \n\n One  sculpture   sat in its  collection   for 17 years. The objects will be flown to Italy this week, along with pieces that were loaned to the museum for an  antiquities   exhibit, according to a statement issued by the Getty on Monday. \n\n \n\n The stolen items are a terra cotta drinking cup from 480  B.C.  , found to have been illegally  excavated   from an  archaeological site  ; a  torso   of the god  Mithras   from the  2nd century  , found to have been stolen from a private Italian collection; and the sculpted head of a victorious athlete, a 2nd century  Roman   copy of an earlier  Greek   work, which was apparently taken from the storeroom of a scientific excavation. \n\n \n\n For security reasons, the museum did not say how much the pieces are worth. \n\n \n\n Although nobody claimed the works, Getty decided to return them based on information supplied by experts in the field and in consultation with Italian officials. \n\n \n\n International concern has been growing about rampant  thefts   of priceless art from collections and the  looting   of archaeological sites. \n\n \n\n The billion-dollar museum, located on a hill in the  Brentwood  area, opened in 1997. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_12#char=0,1482>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1482"^^xsd:nonNegativeInteger ;
+        nif:isString    "   AP Nicaragua Reporter Garcia Dies\n\n MANAGUA,  Nicaragua   (AP) -- Rodolfo Garcia, an Associated Press reporter who helped chronicle Nicaragua's emergence out of  civil war  , a papal visit, volcanoes and floods, died in  Managua   after a long illness. He was 58. \n\n Garcia joined The Associated Press office in Managua in 1986 after working for  Radio Nicaragua  , where he was director of  short-wave   broadcasts, and after helping found a local news agency, Agencia de Noticias Nueva Nicaragua. \n\n For the AP, he covered the war between the  Sandinista   government and  Contra   rebels, the Sandinistas' loss of power at the ballot box and the country's sometimes turbulent effort to put years of war behind it. \n\n He also reported on  volcanic eruptions  , the 1996 visit of  Pope John Paul II   and the ravages of  Hurricane Mitch   in 1998. \n\n ''He worked under very difficult conditions created by a civil war but always managed to maintain total objectivity and a fair vision under pressure in reporting for The Associated Press,'' said Eloy Aguilar, the AP bureau chief for  Mexico   and  Central America  . \n\n Garcia was born in Nandasmo, a town about 15 miles south of Managua. He attended the  National Autonomous University of Nicaragua  . \n\n Garcia suffered a series of illnesses last year, including  diabetes   and  cancer . He died Saturday night. \n\n He was buried in Nandasmo on Sunday. He is survived by his wife, Ana Leonor Hernandez, and four daughters. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_13#char=0,1272>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1272"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Iranian POW negotiator holds talks with Iraqi ministers\n\n The head of  Iran  's  prisoner of war   commission met with two  Iraqi Cabinet ministers   Saturday in a bid to glean information about thousands of Iranian POWs allegedly in Iraq, the official  Iraqi News Agency   reported. \n\n Iraqi Foreign Minister  Mohammed Saeed al-Sahhaf   told Abdullah al-Najafi that the two states needed to \"speed up the closure of what remains from the POW and  Missing-In-Action   file,'' INA said. \n\n The issue of POWs and missing persons remains a stumbling block to normalizing relations between the two neighbors. \n\n Iraq has long maintained that it has released all Iranian prisoners captured in the 1980-88  Iran-Iraq War  . The countries accuse each other of hiding POWs and preventing visits by the  International Committee of the Red Cross   to prisoner camps. \n\n The ICRC representative in  Baghdad  , Manuel Bessler, told The  Associated Press  that his organization has had difficulty visiting POWs on both sides on a regular basis. \n\n In April, Iran released 5,584 Iraqi POWs and Iraq freed three POWs and 316 Iranians it classified as civil law detainees in the largest exchange since 1990. \n\n More than 1 million people were killed or wounded in the Iran-Iraq War. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_14#char=0,1446>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1446"^^xsd:nonNegativeInteger ;
+        nif:isString    "    MALAYSIA  \n\n PORT DICKSON, Tues. -  Federal   and  State    Government agencies  , given the task to undertake  economic   projects under the Development Programme for the Hardcore Poor (PPRT), must ensure their successful  implementation  . \n\n  Rural   Development Minister Datuk Annuar Musa said yesterday those responsible should closely monitor the implementation of the projects and ensure that the  allocation   provided by the  ministry   benefit the hardcore  poor   participants. \n\n He said those responsible, including district officers, must personally check on the progress of the projects being carried out. \n\n \"We don't want to see projects as being a success on paper but on inspection, they don't show the desired results,'' he added. \n\n According to him, it was the ministry's policy now that the  minister  , deputy minister, parliamentary secretary, director-general and other senior ministry officials had to visit the PPRT projects to see what was happening to the allocation given by the Government. \n\n Annuar said this after visiting a  mussel   rearing project in Kuala  Lukut   today as part of his day-long visit to several PPRT projects in  Negri Sembilan  . \n\n Present were Chembong Assemblyman Firdaus Harun and  Port Dickson   district officer Hassan Nawawi Abdul Rahman. \n\n Annuar added that the implementing agencies should also conduct in-depth  studies  of the projects proposed to ensure their viability. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_15#char=0,1393>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1393"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Austrian president tells Albright of effort to identify  stolen art  \n\n  Austria  's president told  Secretary of State    Madeleine Albright   on Thursday that the government was establishing a commission to identify art which was stolen from  Holocaust   victims by the  Nazis  . \n\n Austrian officials said President  Thomas Klestil   told Albright, who paid a one-day visit to Vienna after the  Moscow   summit, that the commission would first determine the origin of all art works owned by the Federal Museum here. \n\n There was no statement on the art issue by U.S. officials. Albright left for the  United States   after meetings with Klestil, Chancellor  Viktor Klima   and Foreign Minister  Wolfgang Schuessel  . \n\n Austria, the United States and 37 other nations have launched a drive to identify billions of dollars worth of art stolen from Holocaust victims throughout Europe. \n\n The  World Jewish Congress   estimates the current value of stolen art at between dlrs 90 billion and dlrs 140 billion. \n\n In June, the  Association of Art Museum Directors   in the United States recommended that American art museums check their own collections to determine if any works were stolen during the war and set up a worldwide database for tracking. \n\n Austria was absorbed into  Adolf Hitler  's  Germany  in 1938 and was restored as an independent nation following World War II. \n\n rr \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_16#char=0,1512>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1512"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Report:  South Africa  n truth panel to condemn ANC\n\n A panel probing  apartheid  -era abuses has accused the  African National Congress   of  human rights   violations, including  torture   and  bomb   attacks, the state  broadcaster   said Monday. \n\n The ANC, which led the struggle against  white rule   and now is in power, previously has acknowledged it was told to expect implication in right violations. \n\n The  Truth and Reconciliation Commission   will release its final report on 2 1-2 years of investigation on Thursday. The report was expected to place overwhelming blame for the era's abuses on white governments and their brutal security services. \n\n  South African Broadcasting Corp.   radio said it had been leaked a \"preliminary document'' which condemns the ANC as politically and morally responsible for gross human rights violations during and after the fall of apartheid. \n\n An ANC spokesman, Thabo Masebe, said he believed the news report referred to a commission letter sent in advance \"informing us of its intention to implicate the ANC in gross human rights violations.'' \n\n Commission officials could not immediately be reached for comment. \n\n The ANC was nervous enough about the report to request a meeting with  commissioners   earlier this month. The panel refused, to avoid appearing embarrassed. \n\n The party says the accusations against it likely would center on the planting of  land mines   on border farms, abuses at its military camps in  Angola  and bombings. \n\n (djw) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_17#char=0,1536>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1536"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Iraqi minister arrives in Iran to attend  trade fair  \n\n  Iraq  's trade minister arrived Wednesday to attend an international trade fair and hold discussions with his  Iranian   counterpart, the Islamic Republic News Agency reported. \n\n Mohammed Mehdi Saleh and his seven-member  delegation   traveled by land and crossed into Iran at the Khosrawi border point in the western  Kermanshah province  , the official news agency said. \n\n It quoted Saleh as saying that he would discuss with Iran's Trade Minister  Mohammad Shariat-Madari   ways of expanding  commercial   ties between the two countries. The fair is scheduled from Oct. 1 to 11. \n\n This is the second consecutive year that Iraq is attending the  Tehran   International Trade Fair, and points at the need for the two neighbors to do business despite their traditional animosity. \n\n Iran and Iraq fought an  eight-year war   which ended with a  U.N.  -brokered cease-fire. \n\n Iran claims Iraq still holds 4,000  prisoners of war   while Iraq says Iran is holding about 20,000 prisoners. More than 1 million people were killed or wounded on both sides during the 1980-88 war. \n\n Tehran accuses  Baghdad   of helping Iranian opposition groups and the two sides accuse each other of allowing infiltrators to sneak across their borders for  acts of sabotage  . \n\n In December, Iraqi Vice President  Taha Yassin Ramadan   became the highest-ranking Iraqi to visit Tehran since the  1991 Gulf War   when he attended the  Organization of the Islamic Conference  meeting. ti/vj \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_18#char=0,1412>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1412"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Vietnam's prime minister demands improvements by state  monopoly  \n\n  Prime Minister    Phan Van Khai   has taken the state  electricity   monopoly to task for abuse of power and excessive  bureaucracy   while accusing it of overcharging, the newspaper Dau Tu (Investment) reported Thursday. \n\n In a blunt assessment, he ordered Electricity of  Vietnam   to help cut waste that is driving up costs and could spark public discontent. EVN must work out corrective measures based on his instructions, and individual leaders have to do  self-criticisms  . \n\n Khai said the utility has plenty of problems, particularly in the  tender   process and  project accounting  , that have led to complaints and affect Vietnam's reputation with foreign investors. \n\n In March, former President  Le Duc Anh  , in an article for the Army newspaper, criticized irregularities in the bidding process for the country's largest thermal electric plant. \n\n Local media have reported that the company has overblown the costs for construction and repair work on a number of projects to justify overcharging for electricity. \n\n Vietnam is chronically short of power, and several projects to raise its output are bogged down in bureaucracy. \n\n EVN imposed  rotating power cuts   earlier this year as the worst  drought   in a century dropped water levels to critical levels at the  reservoir  s that feed key  hydroelectric  plants. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_19#char=0,1456>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1456"^^xsd:nonNegativeInteger ;
+        nif:isString    "    Astronomers   Spot Storm on Mars\n\n WASHINGTON (AP) -- A  cyclone   four times the size of  Texas   raged across the northern polar region of the planet  Mars   last month, according to  space telescope   views of the red planet. \n\n \n\n The  Space Telescope Science Institute   announced today that the  Hubble Space Telescope   on April 27 spotted an immense  Martian   storm cloud, made up of water  ice  , that was 1,100 miles long and 900 wide. \n\n \n\n Bands of clouds spiraled in a counterclockwise motion around a 200-mile wide eye in the center of the storm, taking on a shape that resembled  hurricanes   on  Earth  , astronomers said. \n\n \n\n The storm occurred during the summer in Mars' northern hemisphere. It came after seasonal warming  evaporated   the  carbon dioxide    ice sheet   that caps the  Martian north pole   during part of the year. \n\n \n\n Officials said the storm was three times larger than a storm spotted 20 years ago by the  Viking Orbiter   spacecraft. \n\n \n\n Astronomers used a  wide field planetary camera   on Hubble to photograph Mars during the planet's closest approach to Earth in nearly eight years. \n\n \n\n Two pictures, taken six hours apart on April 27, showed that the storm moved slightly eastward. In the second picture, the storm appeared to be in the process of breaking up. \n\n \n\n Later pictures by the Hubble camera failed to find the storm, and astronomers said it could have been a short-lived  phenomenon . \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_20#char=0,1517>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1517"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Portugal and Spain reach agreement on common water supplies\n\n  Portugal   and  Spain   on Monday reached an agreement over shared  water resources   on the  Iberian peninsula  , wrapping up a two-day summit that both premiers called historic. \n\n \"It is an ambitious, modern, wide-ranging and efficient agreement,'' Portugal's  Prime Minister    Antonio Guterres   said at the end of the summit in Albufeira, about 200 kilometers (125 miles) south of  Lisbon  . \n\n Both governments worked out a shared management plan to monitor water  volume   in the rivers which supply both countries. \n\n Spanish Premier  Jose Maria Aznar   said the agreement reflected \"an exceptional moment'' of relations between the two Iberian countries. \n\n  Water supply   on the southwest European peninsula was one of the few sticking points between the two countries, which have strong trade links and close political ties. \n\n Spanish plans to develop  hydroelectric   projects on its side of the border have been a constant threat to Portugal's supply, which comes mainly from rivers with sources in the neighboring country. \n\n Both governments also reiterated their decision jointly to campaign for continued development funds provided by wealthier  European Union   nations. \n\n Cabinet Members also agreed to build new road and railway links between the two countries. \n\n The Albufeira summit also produced a plan to increase cooperation between police at the border, in order to curb  illegal immigration   and  drug trafficking . \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_21#char=0,1369>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1369"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Iran to complain about  U.S.  -radio at the Hague tribunal\n\n  Iran   will protest to the International Court of Justice at  the Hague   and other global bodies about the U.S.-funded  Radio Free Europe  , the Iran Daily reported Monday. \n\n It quoted Foreign Minister  Kamal Kharrazi   as saying the radio \"was set up to interfere in Iran's internal affairs.'' \n\n It did not say when the complaints will be filed. The English-language daily also did not say which organizations Iran will approach besides the  ICJ   in  the Netherlands  . \n\n On Tuesday, Iran recalled its ambassador from  Prague   to protest the  Czech   government's assistance to the radio and said it would reduce the level of its economic and political cooperation with Prague. \n\n The American-sponsored station also began broadcasts directed to  Iraq   on Friday. In a trial period of several weeks, the station will broadcast one 30-minute program a day to Iran and Iraq. \n\n The  Farsi  -language service to Iran was approved by the  Czech government   in August. \n\n Radio Free Europe began transmitting from  Munich, Germany  , in 1951, spreading uncensored news to  Soviet  -controlled countries behind the  Iron Curtain   during the  Cold War   between the West and the  Communist  East. \n\n It moved its headquarters to Prague in 1995 following the collapse of communism six years earlier. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_22#char=0,1540>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1540"^^xsd:nonNegativeInteger ;
+        nif:isString    "    Swiss   government eyes shutting down nuclear power plants\n\n The Swiss government Thursday announced that it is planning the country's eventual exit from  nuclear power  , saying it wants to support instead  hydroelectric plants  . \n\n But  environmental campaigners   criticized the lack of a timeframe for closing the country's  four nuclear power plants  . \n\n Government officials will work with representatives of the  power industry  , environmental groups and local governments to discuss a timetable and removal of  nuclear waste  , a government statement said. It is unrealistic to build more  power stations   because of environmental concerns, the government has said. \n\n Should the discussions between concerned parties fail to produce an agreed timetable, the federal  cabinet   will make the decision, said the statement. \n\n \"We have set out on a new course,'' said Federal Energy Minister  Moritz Leuenberger  . \"Details have yet to be decided.'' \n\n In a related move, the federal cabinet ordered energy officials to draw up a discussion paper on changing laws governing the domestic  electricity   market. \n\n The government envisages the creation of a national company to own the power  infrastructure  . \n\n A timeframe for carrying out  liberalization   of the electricity market itself remains to be determined, the cabinet said. \n\n The cabinet said it wants to support hydroelectric plants. It ordered a study of the possibility of  tax breaks  for hydroelectric plants and how to encourage upgrades of those plants. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_23#char=0,1408>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1408"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Shepard, Glenn set first two milestones\n\n __ \n\n May 5, 1961:  Alan Shepard   becomes first American in space. \n\n Feb. 20, 1962:  John Glenn   becomes first American in  orbit  . \n\n Jan. 27, 1967:  Gus Grissom  ,  Edward White   II and  Roger Chaffee   die in  Apollo 1    spacecraft   fire on  launch pad  . \n\n July 20, 1969:  Apollo 11  's  Neil Armstrong   and  Buzz Aldrin   land on  moon  . \n\n July 17, 1975: American Apollo and Soviet  Soyuz spacecraft   link in orbit. \n\n April 12, 1981:  Columbia   soars on first  space shuttle   flight. \n\n June 18, 1983:  Sally Ride   becomes first American woman in space. \n\n Jan. 28, 1986:  Challenger   explodes, killing all seven on board. \n\n April 25, 1990:  Hubble Space Telescope   is released into orbit. \n\n Dec. 2, 1993: First Hubble repair mission is launched. \n\n March 14, 1995:  Norman Thagard   is first American to be launched on a Russian  rocket  . Two days later, he becomes first American to visit  Mir  . \n\n June 29, 1995:  Atlantis   docks with Mir in first shuttle-station hookup. \n\n Sept. 26, 1996:  Shannon Lucid   returns to Earth after 188-day Mir mission, a U.S. space endurance record and a world record for women. \n\n Nov. 19, 1996:  Story Musgrave  , at age 61, becomes oldest man in space. \n\n Oct. 29, 1998:  Discovery  is scheduled to blast off, carrying 77-year-old John Glenn back into orbit and making him oldest man in space. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_24#char=0,1268>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1268"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Airport ready for operation; Palestinians await word from Israel\n\n The new  Palestinian    airport  , a powerful symbol of fledgling independence, is ready to open, the head of the Palestinian  Civil Aviation   Authority said Friday after an operations drill with  Israeli   officials. \n\n  Yasser Arafat International Airport   in the southern  Gaza Strip   was to have opened last week as part of the  Israeli-Palestinian peace agreement  . However, Israel fell behind schedule when it held up Cabinet ratification of the accord by two weeks. \n\n Prime Minister Benjamin Netanyahu has said the airport would start operating next week, but has not set a date. \n\n On Thursday, Israeli and Palestinian officials staged a four-hour drill, said Fayez Zeidan, head of the Palestinian  Civil Aviation Authority  . \n\n About 100 Palestinian airport employees and 50  Israelis   who will share  security   duties played the roles of passengers and airport personnel. For lack of a plane, the \"passengers'' arrived by  bus . \n\n Zeidan said the exercise covered arrival and departure procedures, including passport checks as well as customs and luggage inspection. \n\n He said the airport was ready for operation. \"We just need to hear from the Israelis,'' Zeidan said. sa-kl \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_25#char=0,1440>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1440"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Spirited bidders snap up art seized from failed finance firms\n\n Paintings and other art objects once displayed in elegant offices were snapped up this weekend in  Thailand   at an  auction   of assets of collapsed  financial firms  , Thai media reported Sunday. \n\n The three-day auction of more than 1,000 items, which ended Sunday, was expected to bring in more than an initial estimate of 30 million  baht   (dlrs 697,000). \n\n The paintings, sculptures and other art-related objects were seized by Thailand's Financial Restructuring Authority, a government agency set up to  liquidate   the assets of 56 finance companies which were shut down last year. \n\n The closings were required by the  International Monetary Fund   as part of its dlrs 17.2 billion bailout program for the depressed  Thai economy  . The proceeds of the auction will go to pay the debts of the failed companies. \n\n \"The going prices have been very high, much higher than I expected,'' an art gallery owner, Hongjorn Samae-ngamjaroen, was quoted as saying by the  Bangkok Post  . \n\n An untitled painting of a lotus pond by the late Thawee Nandakwang was sold for 2.8 million baht (dlrs 65,000), way above its starting bid of 400,000 baht (dlrs 9,300). \n\n Prime Minister  Chuan Leekpai   donated two of his sketches to the auction, which was handled by  Christies  , the British auction house. It was held at Bangkok's  Queen Sirikit Natoinal Convention Center . \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_26#char=0,1517>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1517"^^xsd:nonNegativeInteger ;
+        nif:isString    "   THAILAND\n\n MORE and more people are dying or suffering from fatal diseases such as  brain tumours  , mammarian or  breast cancer   and brain  haemorrhage   due to a lack of proper medical care.However, things may change as the Srisiam Hospital in  Bangkok   has now established the first ever  Radio Surgery   Institute in  Thailand   -- (there are presently more than 100 radio surgery centres around the world). \n\n Radio surgery is a modern technique which doesn't require surgery in order to remove  cancerous   growth or  tissues  . It involves a  three dimensional   method known as  Stereotaxic Surgery  , which is also used in conjunction with  radiation   equipment known as the  Linear Accelerator  . \n\n With this new technology, doctors are able to removal cancerous tissues embedded deep inside the brain or near sensitive organs that makes normal surgery very difficult and risky. With radio surgery, every step is controlled by computers and patients are  conscious   while they undergo treatment. \n\n This new technique is also capable of treating diseases such as Artero Venous  Malformation   (the  clotting   of veins or blood  capillaries  in the brain).So far, ninety per cent of the radio surgery treatments have been successful and patients only have to remain in hospital for three days. Additionally, there is no need for patients to shave their heads and radio surgery causes no scar, little blood loss and is not expensive.For more information contact the hospital at srisiam ksc.th.com. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_27#char=0,1315>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1315"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Cohen: Missile defense system in  Gulf   `imperative'\n\n U.S. Defense Secretary  William Cohen   said Saturday it has become \"imperative'' for  U.S.   allies in the Gulf to acquire a  ballistic missile defense system   to counter long range weapons in the hands of countries such as  Iran   and  Iraq  . \n\n Cohen said the United States has five defense systems under research and development and \"we hope we hope we can share that technology with  Bahrain   and other Gulf countries.'' \n\n He was speaking to reporters before leaving for  Qatar  , his second stop in a six-nation Gulf tour, which includes the  United Arab Emirates  ,  Oman  , Kuwait and  Saudi Arabia  . \n\n \"Because of the proliferation of missile technology globally but especially in the Gulf region, we believe it's important'' to look at ways to cooperate with U.S. allies, said Cohen. \n\n \"I think it becomes imperative that countries cooperate and develop a theater missile protection system for their people and for their forces,'' said Cohen, citing threats from Iran and Iraq. \n\n The United States sees Iraq and Iran, which recently tested a long-range missile, as major threats to the Gulf region. \n\n Cohen said Iraq, under  U.N.    sanctions , continues efforts to acquire missile technology that has a longer than permissible range. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_28#char=0,1563>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1563"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Israel increases  security   at airports following threats\n\n  Israel   is adding security personnel at its  international airport   in response to threats by  Islamic militants   to attack Israeli and  U.S.   targets, including airlines, officials said Monday. \n\n Prime Minister  Benjamin Netanyahu  's senior adviser,  David Bar-Illan  , said Israel would use all measures it deemed necessary to fight  terrorism  . \n\n Asked whether this included  pre-emptive strikes  , Bar-Illan told The Associated Press: \"I don't want to be specific about anything but obviously we are not ruling out anything.'' \n\n Threats against U.S. and Israeli targets emerged after last week's U.S.  air strikes   in  Sudan   and  Afghanistan   that were aimed at  Osama bin Laden  , a  Saudi   millionaire and Islamic militant linked to the bombings of two U.S.  embassies   in  East Africa   this month. \n\n On Sunday, a leading  Muslim    activist   close to bin Laden said Islamic militants are preparing to retaliate for the air strikes by targeting U.S. and Israeli  strategic   sites and airliners. \n\n A U.S. basketball team from the  University of Connecticut  , which arrived Monday for a nine-day tour of friendly games, hired two private  security guards   to accompany them in Israel. \n\n \"The  administration   of the University of Connecticut demanded bodyguards and we readily agreed,'' said the teams'  tour operator  Nels Hawkinson. \"Had it not been for the bombings in Afghanistan and Sudan we would not have seen the need,'' he said. \n\n Pini Shis, 6th graf pvs dl \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_29#char=0,1346>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1346"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Iraq, Iran sign pact to resolve POW issue\n\n  Iraq   and  Iran   have signed a deal that Iraq says will resolve their longstanding dispute over  prisoners of war  . \n\n The agreement was reached following a week of talks in  Baghdad   between senior Iraqi officials and a visiting Iranian  delegation   headed by Abdullah al-Najafi, head of Iran's POW commission, the official  Iraqi News Agency   reported Wednesday. \n\n But the agency gave no further details and al-Najafi, who left Baghdad on Wednesday, declined to comment. \n\n Al-Najafi arrived in Baghdad last week with a list of thousands of Iranian POWs  Tehran   claims are still held by Iraq. \n\n Iraq has long maintained that it has released all Iranian prisoners and was reportedly angered by the new list. \n\n In April, Iran released 5,584 Iraqi POWs and Iraq freed three POWs and 316 Iranians it classified as civil law  detainees  . \n\n It was the largest  repatriation   of Iranian and Iraqi POWs since 1990, said the  International Committee of the Red Cross  , which supervised the swap. The Red Cross says it knows of several thousand Iraqis in Iran, but it is not aware of more Iranian POWs in Iraq. \n\n The  Iran-Iraq war , in which more than more than 1 million people were killed or wounded, ended in 1988. \n\n The issue of POWs has long stood in the way of better ties. lb-as \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_30#char=0,1348>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1348"^^xsd:nonNegativeInteger ;
+        nif:isString    "   REPEATING Protectively\n\n  Iran   will protest to the International Court of Justice at  the Hague   and other global bodies about the U.S.-funded  Radio Free Europe  , the Iran Daily reported Monday. \n\n It quoted Foreign Minister  Kamal Kharrazi   as saying the radio \"was set up to interfere in Iran's internal affairs.'' \n\n It did not say when the complaints will be filed. The English-language daily also did not say which organizations Iran will approach besides the  ICJ   in  the Netherlands  . \n\n On Tuesday, Iran recalled its  ambassador   from  Prague   to protest the  Czech   government's assistance to the radio and said it would reduce the level of its economic and political cooperation with Prague. \n\n The American-sponsored station also began  broadcast  s directed to  Iraq   on Friday. In a trial period of several weeks, the station will broadcast one 30-minute program a day to Iran and Iraq. \n\n The  Farsi  -language service to Iran was approved by the  Czech government   in August. \n\n Radio Free Europe began transmitting from  Munich, Germany  , in 1951, spreading uncensored news to  Soviet  -controlled countries behind the  Iron Curtain   during the  Cold War   between the West and the  Communist   East. \n\n It moved its headquarters to Prague in 1995 following the  collapse of communism  six years earlier. ti/vj \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_31#char=0,1550>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1550"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Lufthansa,  German railway   pledge closer cooperation\n\n Seeking to shift some domestic travel from  planes   to  trains  ,  Germany  's flag carrier,  Lufthansa  , and the German railway signed a letter of intent Monday to work on coordinating services and schedules. \n\n The goal is to make it easier to travel by train to Lufthansa's  main hub   in  Frankfurt  , instead of flying there. Starting in 2001, Lufthansa boss Juergen Weber hopes to eliminate such short hops _ between Frankfurt and  Cologne  , for example _ thus freeing up takeoff and  landing slots   for more lucrative international flights. \n\n As part of the Lufthansa- Deutsche Bahn   deal, passengers could check their luggage through at the train station for the Lufthansa flight they will catch at Frankfurt. \n\n The service is already in place at Saarbruecken, although travelers must drop their bags off the day before. Starting in September, the service will be extended to five other cities: Duesseldorf, Cologne,  Bonn  ,  Wuerzburg   and Nuremberg. \n\n Passengers flying on Lufthansa partners  United   and  SAS  would also be able to use the service, he said. \n\n The airline and railway said they'd form a working group to resolve such problems as security checks on the luggage and making sure the bags get to the airport from the train station on time. \n\n Deutsche Bahn chief Johannes Ludewig said his railway also would work to coordinate schedules better with Lufthansa flights to make connections easier, and allow for combined train and plane tickets. (pfg-aet) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_32#char=0,1545>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1545"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Report: Plane robbed by gunmen in Nigerian airport\n\n An  Air Afrique    Boeing  -727 jet was the third passenger liner looted in the past month by armed robbers while awaiting takeoff at  Nigeria's largest international airport  , the  Lagos    Guardian newspaper   reported on Thursday. \n\n The thieves broke into the aircraft's luggage compartment and escaped with a large quantity of baggage as the plane was awaiting permission to take off from the Lagos international airport control tower around 9 p.m. on Tuesday night, the Guardian said. It was not clear where the airliner was destined. \n\n There was no immediate confirmation of the report. \n\n The plane's captain, who noticed the theft, sent a  distress call   that went unanswered by airport officials.  Security   personnel on duty later said said they were unable to capture the culprits because their only security vehicle had been taken away for routine maintenance. \n\n In another incident last week involving an unidentified passenger jet, landing gear worth dlrs 1 million was stripped from while the plane was waiting to take off, the newspaper said. In May, a  Cameroon Airlines   plane was robbed of its luggage after armed thieves blocked the plane on the  tarmac   with a large log. \n\n The robberies came despite orders from airport security officials to shoot suspected thieves on sight. \n\n  Nigeria  , Africa's most populous country, has a notoriously high rate of  violent crime  accompanied by a breakdown of law and order under years of military rule. \n\n (fa-gam) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_33#char=0,1305>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1305"^^xsd:nonNegativeInteger ;
+        nif:isString    "   This \"Dracula'' kills  cattle   and deer\n\n A giant black  bear  , whom  peasants   have nicknamed \"Dracula,'' is creating anxiety in western  Romania   because of his taste for cattle and  sheep  , an official said Thursday. \n\n Peasants whose  livestock   has been devoured by the hungry bear have lodged seven complaints in the past six weeks, said Nicolae Onetiu, head of the state hunting and fishing  reserves   in western Romania. \n\n  Dracula   was named after the  Transylvania  n  vampire   count of legend because of his bloody appetite, said Onetiu. The male bruin weighs at least 300  kilograms   (660 pounds) and has moved closer to inhabited areas from forested regions with the onset of cold weather, but is apparently not yet ready to  hibernate  . \n\n Dracula has killed at least six cows and seven sheep over the past six weeks. \n\n Most bears are  omnivorous  , but in Romania, many bears were  weaned   on meat, said Onetiu.  Nicolae Ceausescu  , the  communist    dictator   toppled and executed almost a decade ago, was an avid hunter, and hunting reserve cubs were fed meat to make them grow bigger quicker, leaving generations partial to meat. \n\n State  rangers   count 135 bears living in the  Apuseni Mountains  in western Romania, all of them protected by law. \n\n (str/am/gj ) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_34#char=0,1388>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1388"^^xsd:nonNegativeInteger ;
+        nif:isString    "   LONDON: Nov. 26.\n\n Word of the agreement leaked out when former captain  Courtney Walsh  , head of the  West Indies   players association, told the  Caribbean News Agency   that  Lara   and  Hooper   had been reinstated and the tour was going ahead. \n\n The crisis came to a head last Wednesday when the  West Indies Cricket Board   fired superstar  batsman   Lara as captain and Hooper as vice-captain. The two had refused to travel to South Africa, demanding better pay and conditions for the tour. \n\n Team members had insisted that Lara and Hooper be reinstated as part of any settlement. \n\n Jimmy Adams,  treasurer   of the players' assocation,  negotiated   on behalf of the players Monday with Rousseau. \n\n  Ali Bacher  , head of  South African cricket  , also was directly involved in Monday's talks after sitting on the sidelines Sunday. \n\n West Indies tour manager  Clive Lloyd   and WICB member  Joel Garner   were also involved in the talks which began Friday. \n\n Progress was reported over the weekend with the announcement of a  sponsorship   deal offered by former South African  wicketkeeper    David Richardson  , who runs a sports  marketing   firm in  Johannesburg . \n\n Earnings from the sponsorship proposal would apparently help meet the players' demands for better pay, which is reported to range from dlrs 15,000 to 60,000 for the South African tour. \n\n (jp/sw) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_35#char=0,1310>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1310"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Impressionist paintings recovered,  curator   central suspect\n\n Police have recovered two valuable  Impressionist   paintings stolen 10 days ago in what appears to have been a staged  heist   and arrested the museum curator for alleged armed robbery, police sources said Wednesday. \n\n Two other people, described as small-time thugs, also were arrested in connection with the Sept. 21 theft of a  Monet   and a Sisley at the Fine Arts Museum of  Nice  , according to the sources in the judicial police. They spoke on customary condition of anonymity. \n\n The art works, Claude Monet's 1897 painting \"The Cliffs of Dieppe'' and  Alfred Sisley  's 1890 work \"The Alley of the Poplars,'' were found on a sail boat anchored in the small  Riviera   port of  Saint Laurent du Var , police said. \n\n The police sources said that curator Jean Forneris is suspected of having ordered the theft. \n\n The paintings were stolen by two masked men who took Forneris from his home, drove him to the museum, then bound and gagged him, the caretaker and another employee and shut them in the museum library. \n\n The museum alarm had been turned off, allegedly because the caretaker was on duty. The two men sped off in the curator's car with the paintings. \n\n Forneris later expressed his \"shock'' at the thefts. \n\n (eg-parf) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_36#char=0,1384>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1384"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Iran to complain about U.S.-radio at the Hague tribunal\n\n Iran will protest to the International Court of Justice at  the Hague   and other global bodies about the U.S.-funded  Radio Free Europe  , the Iran Daily reported Monday. \n\n It quoted Foreign Minister  Kamal Kharrazi   as saying the radio \"was set up to interfere in Iran's internal affairs.'' \n\n It did not say when the complaints will be filed. The English-language daily also did not say which organizations Iran will approach besides the  ICJ   in  the Netherlands  . \n\n On Tuesday, Iran recalled its  ambassador   from  Prague   to protest the  Czech   government's assistance to the radio and said it would reduce the level of its  economic   and  political   cooperation with Prague. \n\n The American-sponsored station also began broadcasts directed to  Iraq   on Friday. In a trial period of several weeks, the station will broadcast one 30-minute program a day to Iran and Iraq. \n\n The  Farsi  -language service to Iran was approved by the Czech government in August. \n\n Radio Free Europe began transmitting from  Munich, Germany  , in 1951, spreading un censored   news to  Soviet  -controlled countries behind the  Iron Curtain   during the  Cold War   between the  West   and the  Communist    East . \n\n It moved its headquarters to Prague in 1995 following the collapse of communism six years earlier. ti/vj \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_37#char=0,1548>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1548"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Actress Brooke Shields accepts  libel    damages  , apology over false\n\n Actress  Brooke Shields   on Monday accepted \"very substantial'' libel damages and a public apology over a newspaper article alleging that she was questioned by police for two hours in connection with  drug   offenses as she left the  Cannes Film Festival  . \n\n  The Mail on Sunday   reported May 24 in an \"exclusive'' that began on the front page and continued on page three that Miss Shields' luggage was searched and her flight at the  Nice Airport   delayed while  French police   quizzed her. \n\n After the actress filed suit against  Associated Newspapers Ltd  ., the publisher of the Mail on Sunday, the paper's editor and two Mail journalists, the Mail on Sunday published a front-page apology and  retraction   on May 31. \n\n The retraction said the story was totally false and conceded Miss Shields had not even been stopped at the airport. \n\n \"The defendants recognize that Miss Shields is a staunch and committed anti-drug campaigner and that she has spent considerable amounts of time supporting  substance abuse  programs and raising much needed money for anti-drug abuse programs,'' said Claire Shields, the defendants' attorney. \n\n The newspaper's front-page article \"must therefore have been especially hurtful to her and to her family,'' the attorney said. \n\n The Sunday paper's editor, Jonathan Holborow, has written the actress, who was not present in court Monday, a personal letter of apology. \n\n The amount of the damages was not disclosed. \n\n (kg) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_38#char=0,1325>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1325"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Hungarian government and Jewish communities agree on compensation\n\n The  Hungarian   government and the Federation of  Hungarian Jewish   Communities signed an agreement Thursday on collective compensation for  communist  -era confiscations, the state news agency  MTI   reported. \n\n The financial basis for the funding is real estate that belonged to the Jewish communities and fell victim to  nationalization   under the communists. \n\n Instead of getting back the actual property _ 152 schools and other buildings _ the assessed value of which is 13,511,000,000  forints   (dlrs 63 million), the Jewish community collectively is to get a percentage annually, starting with the current year, when 608 million forints (dlrs 2.9 million) will be paid. \n\n \"The money will be mainly used for education, religious services,  social welfare  , health service, and charity ends,'' Gusztav Zoltai, executive director of the Federation, said. \n\n There are between 80,000 and 100,000 Jews in Hungary. Some 600,000 were killed in  the Holocaust  . \n\n When the communists assumed full power in 1948, they started a wave of nationalizations that spared no one, including the Jewish community. \n\n On June 20, 1997, a similar agreement, the first of its kind, was signed between the Hungarian government and the  Vatican . \n\n (ab/rp) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_39#char=0,1487>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1487"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Stolen painting in  New Zealand   recovered, one man arrested\n\n A 19th-century painting worth U.S. dlrs 1 million stolen from  Auckland Art Gallery   nine days ago has been recovered, police said Monday. \n\n Senior Sgt. Gary Allcock said he understood that one person had been arrested over the theft of the 1874 oil, \"Still on Top,'' by French-born artist  Jacques-Joseph (James) Tissot  , one of New Zealand's most expensive and popular European works. \n\n He said details would be disclosed later. \n\n The painting valued at up to U.S. dlrs 1 million was stolen Aug. 9 by a man armed with a  shotgun   in a daring robbery at the  Auckland   Art Gallery. \n\n The man, clad in black and wearing a motorcycle helmet, dark visor and gloves, burst through the main door with a sawed-off shotgun and a  crowbar  . \n\n Museum official Kate Darrow said the man ran through the Grey Gallery waving a  firearm   and yelling \"get down,'' and \"keep back'' to staff and patrons. \n\n She said the man appeared to know where he was going and went to the Lower Wellesley Gallery, where the painting was displayed. \n\n The gunman grabbed the painting off the wall and dropped it on the ground. He then used the crowbar to remove the canvas from the frame and take it off the backing board. \n\n The robber left through the main entrance and skirted behind the gallery into  Albert Park , pursued by a member of the public. He was believed to have climbed on a motorcycle and escaped via a nearby highway. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_40#char=0,1388>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1388"^^xsd:nonNegativeInteger ;
+        nif:isString    "   LONDON: Nov. 26.\n\n The apparent settlement came after four days of talks involving the  West Indies   players and officials of the West Indies and  South Africa    cricket   boards. \n\n The crisis came to a head last Wednesday when the West Indies Cricket Board fired superstar  batsman    Brian Lara   as captain and  Carl Hooper   as vice-captain. The two had refused to travel to South Africa, demanding better pay and conditions for the tour. \n\n Team members have insisted that Lara and Hooper be reinstated as part of any settlement. \n\n  Jimmy Adams  , treasurer of the players' assocation, negotiated on behalf of the players Monday with Pat Rousseau, president of the  West Indies Cricket Board  . \n\n  Ali Bacher  , head of  South African cricket  , also was directly involved in Monday's talks after sitting on the sidelines Sunday. \n\n West Indies tour manager  Clive Lloyd   and WICB member  Joel Garner   have also been involved in the talks which began Friday. \n\n Progress was reported over the weekend with the announcement of a  sponsorship   deal offered by former South African  wicketkeeper    David Richardson  , who runs a  sports marketing   firm in  Johannesburg . \n\n Earnings from the sponsorship proposal would apparently help meet the players' demands for better pay, which is reported to range from dlrs 15,000 to 60,000 for the South African tour. \n\n (jp/sw) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_41#char=0,1334>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1334"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Iraq, Iran sign pact to resolve POW issue\n\n  Iraq   and  Iran   have signed a deal that Iraq says will resolve their longstanding dispute over  prisoners of war  . \n\n The agreement was reached following a week of talks in  Baghdad   between senior Iraqi officials and a visiting Iranian delegation headed by Abdullah al-Najafi, head of Iran's POW commission, the official  Iraqi News Agency   reported Wednesday. \n\n But the agency gave no further details and al-Najafi, who left Baghdad on Wednesday, declined to comment. \n\n Al-Najafi arrived in Baghdad last week with a list of thousands of Iranian POWs  Tehran   claims are still held by Iraq. \n\n Iraq has long maintained that it has released all Iranian prisoners and was reportedly angered by the new list. \n\n In April, Iran released 5,584 Iraqi POWs and Iraq freed three POWs and 316 Iranians it classified as civil law detainees. \n\n It was the largest  repatriation   of Iranian and Iraqi POWs since 1990, said the  International Committee of the Red Cross  , which supervised the swap. The Red Cross says it knows of several thousand Iraqis in Iran, but it is not aware of more Iranian POWs in Iraq. \n\n The  Iran-Iraq war , in which more than more than 1 million people were killed or wounded, ended in 1988. \n\n The issue of POWs has long stood in the way of better ties. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_42#char=0,1413>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1413"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Saddam says U.S. will reap nothing, urges Iran to normalize ties\n\n President  Saddam Hussein   said Saturday the  United States   will reap nothing but a \"harvest ... full of thorns'' from its campaign against  Iraq  . \n\n Addressing the nation on television to mark the anniversary of the end of the 1980-88  Iran-Iraq war  , Saddam also urged Iran to normalize relations with Iraq. \n\n Saddam did not refer to his decision Wednesday to freeze cooperation with  U.N.   arms inspectors, but he said the United States and its  allies   would be misled if they thought they could bring Iraq to its knees. \n\n This is exactly what the  Iranian government   under the late  Ayatollah Ruhollah Khomeini   thought it could do in the war, but it failed, Saddam said. \n\n \"Those imposing aggression on Iraq ... and the unfair  embargo   neglect this fact today,'' Saddam said, referring to sweeping  sanctions   the United Nations imposed after Iraq's 1990 invasion of  Kuwait  . \n\n \"They are making the same mistake. Their harvest will be full of thorns and the outcome will be a taste of bitterness.'' \n\n The president delivered his speech in a black suit. He had decreed that Saturday be celebrated as a day of victory over Iran, and an  artillery   salute of 101 guns boomed over  Baghdad   in the early morning. National radio and television played  patriotic  songs for the occasion. \n\n Saddam spoke, 7th graf pvs \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_43#char=0,1443>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1443"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Sotheby's Announces Internet Site\n\n NEW YORK (AP) -- Home shoppers can buy airline tickets,  Beanie Babies   and garden tools via computer. Why not a $9 million  Rembrandt   painting? \n\n \n\n  Sotheby  's, the  New York    auction house  , said Tuesday that it will spend $25 million to launch sothebys.com, an Internet site where the public will be able to bid on  antiques  , art, jewelry,  sports memorabilia   and other  collectibles  . \n\n \n\n The value of items on the virtual auction block initially will be capped at about $10,000. More expensive items will be posted when imaging technology improves enough to give clear views of items from multiple angles. \n\n \n\n \"There's no point in having a fuzzy image on a $100,000 item,'' said Susan Solomon, head of the new venture. \n\n \n\n Sotheby's first major  online auction  , planned for July, will feature  baseball   memorabilia. \n\n \n\n While online auction sites have become extremely popular, consumer groups say the sites have produced more consumer complaints than any other Internet category because of shoddy merchandise and other fraud. \n\n \n\n Sotheby's said it would only sell merchandise from the auction house itself or reputable art dealers. And bids will only be accepted from customers who have registered their  charge card   numbers in advance. \n\n \n\n Officials at  Christie 's, another leading New York auction house, said they were also considering an online auction site. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_44#char=0,1274>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1274"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Airport ready for operation; Palestinians await word from Israel\n\n The new  Palestinian    airport  , a powerful symbol of fledgling  independence  , is ready to open, the head of the Palestinian  Civil Aviation   Authority said Friday after an operations drill with  Israeli   officials. \n\n  Yasser Arafat International Airport   in the southern  Gaza Strip   was to have opened last week as part of the  Israeli-Palestinian peace agreement  . However, Israel fell behind schedule when it held up  Cabinet    ratification   of the accord by two weeks. \n\n Prime Minister  Benjamin Netanyahu   has said the airport would start operating next week, but has not set a date. \n\n On Thursday, Israeli and Palestinian officials staged a four-hour drill, said Fayez Zeidan, head of the Palestinian  Civil Aviation Authority  . \n\n About 100 Palestinian airport employees and 50  Israelis   who will share security duties played the roles of passengers and airport personnel. For lack of a plane, the \"passengers'' arrived by bus. \n\n Zeidan said the exercise covered arrival and departure procedures, including  passport   checks as well as  customs  and luggage inspection. \n\n He said the airport was ready for operation. \"We just need to hear from the Israelis,'' Zeidan said. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_45#char=0,1375>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1375"^^xsd:nonNegativeInteger ;
+        nif:isString    "   ENGLISH\n\n  Viravaidya  's plan to set up a watchdog company to monitor  SET  -listed companies and expose possible abuses of  corporate ethics  . I agree with him whole-heartedly and would like to know where to mail my checks to subscribe to the company's shares. Could you advise? \n\n Also, I fully support his request for the media to report on the  lifestyle   of former  executives   of the failed  banks   and  finance   companies. We all know too well that these people will not be punished legally because of the inefficiency of the  Bank of Thailand   in collecting evidence against them and of our  justice system   in delivering timely justice. It is the media's job to discover how these guys are better off after destroying our country, and it is the  Thai people  's job to socially punish them. \n\n I would like to propose that  newspapers   and  TV stations  play up this issue (the continued luxurious lifestyle of the former executives) to attract more public attention, and I will give them Bt20,000 of my hard-earned salary with my full blessing. \n\n Artit Krichphiphat (An ordinary Thai citizen who wants to see the right things get done) Editor's note: Khun Mechai will organise a seminar on the plan on June 7 at the Telephone Organisation of Thailand at 10 am. The media already has the duty to cover such issues without additional financial reward. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_46#char=0,1520>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1520"^^xsd:nonNegativeInteger ;
+        nif:isString    "   International police seek to stymie  illegal art traffic  king\n\n Police officers from 23 countries met in  Budapest   to seek more efficient ways to combat  illegal traffic   in art treasures, a police official said Thursday. \n\n Held under the auspices of  Interpol  , the  International Police   Organization, the three-day closed meeting allowed the officers to make personal contact and to help their  East European   counterparts catch up. \n\n \"We have a five-member team working on illegal art traffic, and the group was set up only this April, while  France   has over 30 policemen in the same detail and with many years of experience,''  Hungarian   police Col. Tamas Simon said. \n\n Illegal art traffic is a growth industry. \n\n In 1990, the year after  communism   collapsed, there were 702 registered cases in Hungary, and the total value of the stolen treasures was 71 million  forints   (dlrs 340,000 in present terms). \n\n In 1993, there were in 1996, 1,025 cases involving 430 million forints (dlrs two million) worth of stolen treasures. \n\n \"This is a special area of police work as stolen art may not appear for 30 years on the market,'' said Jean Pierre Jouanny, director of the French national bureau of Interpol. \n\n Hungary is largely a transit country for stolen art, with the line of traffic moving from east to west. \n\n Work is underway in cataloging the country's art treasures, establishing a  data base   and a  network   of contacts among  art dealers  ,  auctioneers  and museums. \n\n (ab/rp) \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_47#char=0,1410>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1410"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Interpol needs to revamp  strategy   to keep abreast of crime\n\n  Interpol   must modernize if it wants to effectively fight increasingly sophisticated  crime syndicates   in the next century, the police organization's president said Thursday. \n\n The criminal environment has changed at a \"much greater pace'' than Interpol, Toshinori Kanemoto told the opening session of the 67th general assembly of the International Criminal Police Organization. \n\n A failure to modernize Interpol could mean the organization \"risks being displaced against a backdrop of international  organized crime  ,'' he said. \n\n Kanemoto said a new Interpol strategy will be discussed at the six-day assembly and, if adopted, would be put into effect next January. \n\n The former Japanese police official said the assembly also will discuss  terrorism  , which he called one of the \"new forms of criminality,'' as well as the  illegal drug trade   and  money laundering  . \n\n With crime becoming increasingly sophisticated, Kanemoto said, it has become harder for police officials to gather  evidence   for prosecution. He said these new challenges require increased cooperation, particularly through Interpol. \n\n The police officials are expected to discuss a  strategic development plan  aimed at making Interpol more proactive by re-examining the needs of the group's 177-member states, Kanemoto said. \n\n Details of, graf 8 pvs \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_48#char=0,1383>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1383"^^xsd:nonNegativeInteger ;
+        nif:isString    "   Alaska Hiker Killed by  Bear  \n\n  ANCHORAGE  ,  Alaska   (AP) -- A man on a day hike in a rural area was killed when a bear bit his head,  Alaska State Troopers   said Wednesday. \n\n \n\n Kenneth Cates, 53, was found Wednesday morning on a horse trail in a heavily wooded area of the  Kenai National Wildlife Refuge   near his hometown of  Soldotna  . \n\n \n\n The attack happened about six miles off a busy road. The area is about 60 miles southwest of Anchorage. \n\n \n\n The fatal mauling is thought to have happened Tuesday. \n\n \n\n His only visible wound was a single bite to the head, said Bruce Bartley, a spokesman for the state Division of Wildlife Conservation. \n\n \n\n State and federal wildlife officials were looking for the bear involved in the attack. If the bear is judged to pose a continuing threat to humans it may be killed. \n\n \n\n Troopers said Cates' .280-caliber  rifle   and two spent shell casings were found near the body, along with traces of blood that suggest that Cates may have wounded the animal. \n\n \n\n \"We don't know if one was a warning shot and one real, or if there were two real shots,'' Bartley said. \n\n \n\n Cates' death is the first fatal bear mauling in Alaska since Feb. 8, 1998, when  Audelio Luis Cortes  , 40, was killed while working on a  seismic   crew in the  Swanson River    oil field   near  Kenai . Cortes also died from a single head bite. \n\n" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.aksw.org/gerbil/NifWebService/request_49#char=0,1214>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1214"^^xsd:nonNegativeInteger ;
+        nif:isString    "   O'Hare Closes Terminal for Security\n\n CHICAGO (AP) --  United Airlines   shut down a  terminal   for hours so authorities could search for a passenger who ran past a  security   checkpoint and disappeared into the crowd at  O'Hare International Airport  . \n\n \n\n United spokeswoman Kristina Price said 131 flights were canceled Thursday and more than 100 were delayed nationwide because of the incident. About 6,000 passengers were cleared from the terminal during the search, airline officials said. \n\n \n\n Eighty more flights were canceled today and numerous others were delayed as the effects of the shutdown lingered, Price said, adding that the carrier hoped to be back to a normal schedule by this afternoon. \n\n \n\n The man was not found and Chicago police said officers turned up nothing suspicious. \n\n \n\n He was leaving a  concourse   and heading toward the  baggage claim  area when he turned back and ran up a one-way staircase leading to the concourse, United spokesman Matthew Triaca said. Guards are stationed at the staircase, but the man ran past them. \n\n \n\n No United flights left the terminal during the search and only a few landed at other United gates. Some flights resumed by early evening. \n\n" .
