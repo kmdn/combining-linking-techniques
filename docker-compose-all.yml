@@ -2,23 +2,16 @@ version: "3.7"
 
 services:
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      network: host
+    image: kmdn/combining-linking-techniques
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:
       - 8080:8080
   md_spacy:
-    build:
-      context: ./spacy_md_api/
-      dockerfile: Dockerfile
+    image: kmdn/clit-spacy-mention-detector
     ports:
       - 5001:5001
   linker_recommender:
-    build:
-      context: ./linker_recommender_api/
-      dockerfile: Dockerfile
+    image: kmdn/clit-linker-recommender-svm
     ports:
       - 5002:5002

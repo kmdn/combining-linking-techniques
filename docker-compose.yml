@@ -2,10 +2,11 @@ version: "3.7"
 
 services:
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      network: host
+    image: kmdn/combining-linking-techniques
+    #build:
+    #  context: .
+    #  dockerfile: Dockerfile
+    #  network: host
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:

@@ -1,24 +1,42 @@
 # Combining Linking Techniques (Docker version)
 
 ## How to run
+1. Run front-end
+	```
+	docker-compose up
+	```
+2. Run front-end incl. following docker containers:
+	1. linker recommendation. (Executed by default when no linker is chosen.)
+	2. spacy mention detection. (Default when adding IP-based API.)
+	```
+	docker-compose -f ./docker-compose-all.yml up
+	```
+
+## Build yourself
 1. Clone Github repository & go into its root folder.
 ```
  git clone https://github.com/kmdn/combining-linking-techniques.git
 ```
 
-2. Run docker container(s).
+2. Build with Maven (Note: issues may arise depending on local mvn settings, hence we recommend the first step)
+	1. Build clit-frontend (relies on backend)
+	```
+	cd clit-frontend && mvn clean install
+	```
+
+3. Build & run docker container(s).
 
 	1. Run only front-end docker container.
 	```
-	docker-compose up
+	docker-compose -f ./docker-compose-build.yml up
 	```
 
-	2. Run front-end incl. following docker containers
-		1. linker recommendation.
-		2. spaCy mention detection.
-	```
-	docker-compose -f ./docker-compose-all.yml up
-	```
+	2. Run front-end incl. following docker containers. Note: Building python dependencies may take a while.
+		1. linker recommendation. (Executed by default when no linker is chosen.)
+		2. spacy mention detection. (Default when adding IP-based API.)
+		```
+		docker-compose -f ./docker-compose-build-all.yml up
+		```
 
 3. Access front-end via browser at address:
 ```

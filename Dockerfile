@@ -17,6 +17,7 @@ LABEL maintainer="kmdn@github.com"
 #ADD ROOT.war /usr/local/tomcat/webapps/
 # Take it directly out of the target repo
 ADD ./clit_frontend/target/clit-web-0.0.1.war /usr/local/tomcat/webapps/ROOT.war
+#ADD ./clit-web-0.0.1.war /usr/local/tomcat/webapps/ROOT.war
 
 #ADD agnos_collab-0.0.1.jar /usr/local/tomcat/webapps/ROOT/WEB-INF/lib/
 # run program on startup
