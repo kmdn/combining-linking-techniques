@@ -15,13 +15,18 @@
 ## Build yourself
 1. Clone Github repository & go into its root folder.
 ```
- git clone https://github.com/kmdn/combining-linking-techniques.git
+ git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
 ```
 
 2. Build with Maven (Note: issues may arise depending on local mvn settings, hence we recommend the first step)
-	1. Build clit-frontend (relies on backend)
+	1. Build clit_backend
 	```
-	cd clit-frontend && mvn clean install
+	cd clit_backend && mvn clean install && cd ..
+	```
+	
+	2. Build clit_frontend (relies on backend)
+	```
+	cd clit_frontend && mvn clean install && cd ..
 	```
 
 3. Build & run docker container(s).
@@ -31,7 +36,7 @@
 	docker-compose -f ./docker-compose-build.yml up
 	```
 
-	2. Run front-end incl. following docker containers. Note: Building python dependencies may take a while.
+	2. Run front-end incl. following docker containers. Note: Building Python dependencies may take a while.
 		1. linker recommendation. (Executed by default when no linker is chosen.)
 		2. spacy mention detection. (Default when adding IP-based API.)
 		```
