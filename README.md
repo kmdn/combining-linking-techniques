@@ -3,7 +3,7 @@
 ## How to run
 1. Clone Github repository & go into its root folder.
 ```
- git clone https://github.com/kmdn/agnos_collab_docker.git
+ git clone https://github.com/kmdn/combining-linking-techniques.git
 ```
 
 2. Run docker container(s).
