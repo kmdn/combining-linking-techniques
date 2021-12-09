@@ -1,11 +1,23 @@
 # Combining Linking Techniques (Docker version)
 
 ## How to run
-1. Run front-end
+1. Clone Github repository & go into its root folder.
+	1.
+	```
+	 git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
+	```
+
+	2. In case git gives you "over data quota" issues, you may clone (non-LFS data) with - this will not download benchmark data sets:
+	```
+	GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
+	```
+
+2. Run front-end
 	```
 	docker-compose up
 	```
-2. Run front-end incl. following docker containers:
+
+3. Run front-end incl. following docker containers:
 	1. linker recommendation. (Executed by default when no linker is chosen.)
 	2. spacy mention detection. (Default when adding IP-based API.)
 	```
