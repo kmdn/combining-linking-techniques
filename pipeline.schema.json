@@ -1,0 +1,434 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "experimentId": {
+      "type": "integer"
+    },
+    "experimentTasks": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "currentComponent": {
+              "type": "string"
+            },
+            "documents": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "componentId": {
+                          "type": "string"
+                        },
+                        "mentions": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "offset": {
+                                  "type": "integer"
+                                },
+                                "assignment": {
+                                  "type": "object",
+                                  "properties": {
+                                    "score": {
+                                      "type": "number"
+                                    },
+                                    "assignment": {
+                                      "type": "string"
+                                    },
+                                  },
+                                  "required": [
+                                    "score",
+                                    "assignment",
+                                  ]
+                                },
+                                "possibleAssignments": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "score": {
+                                          "type": "number"
+                                        },
+                                        "assignment": {
+                                          "type": "string"
+                                        },
+                                      },
+                                      "required": [
+                                        "score",
+                                        "assignment",
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "originalWithoutStopwords": {
+                                  "type": "string"
+                                },
+                                "detectionConfidence": {
+                                  "type": "number"
+                                },
+                                "originalMention": {
+                                  "type": "string"
+                                },
+                                "mention": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "offset",
+                                "assignment",
+                                "possibleAssignments",
+                                "originalWithoutStopwords",
+                                "detectionConfidence",
+                                "originalMention",
+                                "mention"
+                              ]
+                            }
+                          ]
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "pipelineType": {
+                          "type": "string"
+                        },
+                        "uri": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "componentId",
+                        "mentions",
+                        "text",
+                        "pipelineType",
+                        "uri"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "pipelineConfig": {
+              "type": "object",
+              "properties": {
+                "startComponents": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "components": {
+                  "type": "object",
+                  "properties": {
+                    "md": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "cg": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "ed": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "md_cg": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "cg_ed": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "md_cg_ed": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "combiner": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "splitter": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "translator": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    },
+                    "filter": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "value"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "anyOf": [
+                    "md",
+					"cg",
+					"ed",
+                    "cg_ed",
+					"md_cg",
+					"md_cg_ed",
+                    "combiner",
+                    "splitter",
+                    "translator",
+                    "filter"
+                  ]
+                },
+                "exampleId": {
+                  "type": "string"
+                },
+                "endComponents": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "displayName": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "connections": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "source": {
+                          "type": "string"
+                        },
+                        "target": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "source",
+                        "target"
+                      ]
+                    }
+                  ]
+                },
+                "pipelineConfigType": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startComponents",
+                "components",
+                "exampleId",
+                "endComponents",
+                "displayName",
+                "id",
+                "connections",
+                "pipelineConfigType"
+              ]
+            },
+            "errorMessage": {
+              "type": "string"
+            },
+            "experimentId": {
+              "type": "integer"
+            },
+            "state": {
+              "type": "string"
+            },
+            "pipelineType": {
+              "type": "string"
+            },
+            "taskId": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "currentComponent",
+            "documents",
+            "pipelineConfig",
+            "errorMessage",
+            "experimentId",
+            "state",
+            "pipelineType",
+            "taskId"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "experimentId",
+    "experimentTasks"
+  ]
+}
