@@ -19,8 +19,9 @@
 2. Run front-end
 
 	1. Option 1: Run only simple front-end
-	
+		```
 		docker-compose up
+		```
 
 	2. Option 2: Run front-end incl. following docker containers:
 
