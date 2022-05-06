@@ -1,8 +1,12 @@
 # Combining Linking Techniques (Docker version)
 
 ## How to run
+0. Requirements
+	1. [Git](https://git-scm.com/downloads)
+	2. [Docker / docker-compose](https://www.docker.com/)
+
 1. Clone Github repository & go into its root folder.
-	1.
+	1. Execute command
 	```
 	 git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
 	```
@@ -27,6 +31,10 @@
 			```
 
 ## Build yourself
+0. Requirements
+	1. [Git](https://git-scm.com/downloads)
+	2. [Docker / docker-compose](https://www.docker.com/)
+	3. [Maven](https://maven.apache.org/download.cgi)
 1. Clone Github repository & go into its root folder.
 ```
  git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
@@ -86,7 +94,7 @@
 
 
 
-## [CLiT Website (Barebones)](http://clit.tech)
+## [CLiT Website (barebone)](http://clit.tech)
 [![CLiT Website](/img/clit_website_part_core.png)](http://clit.tech)
 
 
