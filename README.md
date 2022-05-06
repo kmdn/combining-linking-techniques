@@ -36,6 +36,8 @@
 	1. [Git](https://git-scm.com/downloads)
 	2. [Docker / docker-compose](https://www.docker.com/)
 	3. [Maven](https://maven.apache.org/download.cgi)
+	4. An internet browser and open ports.
+
 1. Clone Github repository & go into its root folder.
 ```
  git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
