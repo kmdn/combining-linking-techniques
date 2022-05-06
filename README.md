@@ -18,11 +18,11 @@
 
 2. Run front-end
 
-	Option 1: Run only simple front-end
+	1. Option 1: Run only simple front-end
 	
 		docker-compose up
 
-	Option 2: Run front-end incl. following docker containers:
+	2. Option 2: Run front-end incl. following docker containers:
 
 		1. linker recommendation. (Executed by default when no linker is chosen.)
 		2. spacy mention detection. (Default when adding IP-based API.)
