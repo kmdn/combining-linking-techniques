@@ -87,135 +87,20 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Images for README.md
 
 
-## JSON Result structure
-Pipeline Results:
-```
-	JSONObject{
-		"experimentId": int,
-		"experimentTasks": 
-			JSONArray[
-				EXPERIMENTS
-			]
-	}
-```	
-
-EXPERIMENTS:
-```	
-	JSONObject{
-		"currentComponent": String,
-		"documents": 
-			JSONArray[
-				DOCUMENTS
-			],
-		"pipelineConfig": 
-			PIPELINE,
-		"errorMessage": String,
-		"experimentId": int,
-		"state": String (e.g. "DONE"),
-		"pipelineType": String (e.g. "FULL"),
-		"taskId": int
-	}
-
-```	
-
-DOCUMENTS: 
-```	
-	JSONArray[			-- need double JSONArray in order to store sub-pipeline results for each document
-		JSONObject{
-			"componentId": String,
-			"mentions": 
-				JSONArray[
-					MENTIONS
-				],
-			"text": String (e.g. "Napoleon was the emperor of the First French Empire."),
-			"pipelineType": String (e.g. "ED"),
-			"uri": String
-		}
-	]
-```	
-
-MENTIONS:
-```	
-	JSONObject{
-		"offset": int,
-		"assignment": 
-			JSONObject{
-				"score": double,
-				"assignment": String (e.g. "http://dbpedia.org/resource/Empire")
-			},
-			"possibleAssignments": 
-				JSONArray[
-					JSONObject{
-						"score": double, 
-						"assignment": String
-					}
-				]
-		},
-		"originalWithoutStopwords": String (e.g. "Empire"),
-		"detectionConfidence": double (e.g. 0.0),
-		"originalMention": String (e.g. "Empire"),
-		"mention": String (e.g. "Empire")
-	}
-```	
-
-PIPELINE:
-```	
-	JSONObject{
-		"startComponents": 
-			JSONArray[
-				String (e.g. "MD1")
-			],
-		"components": 
-			JSONObject{
-				"md" (Only if present. May be: md, cg, ed, md_cg_ed, md_cg, cg_ed, ...):
-					JSONArray[
-						JSONObject{
-							"id": String (e.g. "MD1"; ID matches w/ IDs in connections),
-							"value": String (e.g. "Babelfy")
-						}
-					],
-
-				"cg_ed" (IF PRESENT): 
-					JSONArray[
-						JSONObject{
-							"id": String (e.g. "CG_ED1"),
-							"value": String (e.g. "Babelfy")
-						}
-					]
-			},
-		"exampleId": String (e.g. "md_combined_cged"),
-		"endComponents": 
-			JSONArray[
-				String (e.g. "CG_ED1", "MD1")
-			],
-		"displayName": String (e.g. "MD + combined CG-ED"),
-		"id": int (e.g. 1),
-		"connections":
-			JSONArray[
-				JSONObject{
-					"source": String (e.g. "MD1"),
-					"target": String (e.g. "CG_ED1")
-				}
-			],
-		"pipelineConfigType": String (e.g. "complex")
-	}
-```	
 
 
-[CLiT Website](http://clit.tech)
+## [CLiT Website (Barebones)](http://clit.tech)
 [![CLiT Website](/img/clit_website_part_core.png)](http://clit.tech)
 
 
 
-Demo Video(s)
+## Tutorials and Videos
 -------------
-![Setup and Intro to Simple & Standard Linkers](/videos/ESWC2021_Demo_Simple_Standard_Linkers.mov)
+Tutorials will be made available at https://github.com/kmdn/clit-tutorials
 
-[![ESWC2021 Demo Complex Pipeline](/img/video_simple.PNG)](https://www.youtube.com/watch?v=FQMnaR5hE0k)
+For videos regarding the use of our framework, we refer to the following public YouTube playlist: 
+https://www.youtube.com/playlist?list=PLjJ1ICImS5q7D3k6bLGSUts_qEgtlVJnO
 
-
-How to create a ![Complex Pipeline](/videos/ESWC2021_Demo_Complex_Pipeline.mov)
-[![ESWC2021 Demo Complex Pipeline](/img/video_complex.PNG)](https://www.youtube.com/watch?v=3gLGFAUDkVo)
 
 Classical Pipeline
 ------------------
@@ -415,4 +300,120 @@ pipelineConfig = {
 		{"ED1": "TR1"} ]
 }
 ```
+
+
+## JSON Result structure
+Pipeline Results:
+```
+	JSONObject{
+		"experimentId": int,
+		"experimentTasks": 
+			JSONArray[
+				EXPERIMENTS
+			]
+	}
+```	
+
+EXPERIMENTS:
+```	
+	JSONObject{
+		"currentComponent": String,
+		"documents": 
+			JSONArray[
+				DOCUMENTS
+			],
+		"pipelineConfig": 
+			PIPELINE,
+		"errorMessage": String,
+		"experimentId": int,
+		"state": String (e.g. "DONE"),
+		"pipelineType": String (e.g. "FULL"),
+		"taskId": int
+	}
+
+```	
+
+DOCUMENTS: 
+```	
+	JSONArray[			-- need double JSONArray in order to store sub-pipeline results for each document
+		JSONObject{
+			"componentId": String,
+			"mentions": 
+				JSONArray[
+					MENTIONS
+				],
+			"text": String (e.g. "Napoleon was the emperor of the First French Empire."),
+			"pipelineType": String (e.g. "ED"),
+			"uri": String
+		}
+	]
+```	
+
+MENTIONS:
+```	
+	JSONObject{
+		"offset": int,
+		"assignment": 
+			JSONObject{
+				"score": double,
+				"assignment": String (e.g. "http://dbpedia.org/resource/Empire")
+			},
+			"possibleAssignments": 
+				JSONArray[
+					JSONObject{
+						"score": double, 
+						"assignment": String
+					}
+				]
+		},
+		"originalWithoutStopwords": String (e.g. "Empire"),
+		"detectionConfidence": double (e.g. 0.0),
+		"originalMention": String (e.g. "Empire"),
+		"mention": String (e.g. "Empire")
+	}
+```	
+
+PIPELINE:
+```	
+	JSONObject{
+		"startComponents": 
+			JSONArray[
+				String (e.g. "MD1")
+			],
+		"components": 
+			JSONObject{
+				"md" (Only if present. May be: md, cg, ed, md_cg_ed, md_cg, cg_ed, ...):
+					JSONArray[
+						JSONObject{
+							"id": String (e.g. "MD1"; ID matches w/ IDs in connections),
+							"value": String (e.g. "Babelfy")
+						}
+					],
+
+				"cg_ed" (IF PRESENT): 
+					JSONArray[
+						JSONObject{
+							"id": String (e.g. "CG_ED1"),
+							"value": String (e.g. "Babelfy")
+						}
+					]
+			},
+		"exampleId": String (e.g. "md_combined_cged"),
+		"endComponents": 
+			JSONArray[
+				String (e.g. "CG_ED1", "MD1")
+			],
+		"displayName": String (e.g. "MD + combined CG-ED"),
+		"id": int (e.g. 1),
+		"connections":
+			JSONArray[
+				JSONObject{
+					"source": String (e.g. "MD1"),
+					"target": String (e.g. "CG_ED1")
+				}
+			],
+		"pipelineConfigType": String (e.g. "complex")
+	}
+```	
+
 
