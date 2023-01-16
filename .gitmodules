@@ -10,3 +10,6 @@
 [submodule "clit_backend"]
 	path = clit_backend
 	url = https://github.com/kmdn/clit_backend.git
+[submodule "REL"]
+	path = REL
+	url = https://github.com/hashpad/REL
