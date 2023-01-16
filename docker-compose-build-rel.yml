@@ -10,21 +10,10 @@ services:
       - "host.docker.internal:host-gateway"
     ports:
       - 8080:8080
-  md_spacy:
-    build:
-      context: ./spacy_md_api/
-      dockerfile: Dockerfile
-    ports:
-      - 5001:5001
-  linker_recommender:
-    build:
-      context: ./linker_recommender_api/
-      dockerfile: Dockerfile
-    ports:
-      - 5002:5002
   rel:
     build:
       context: ./REL/
       dockerfile: Dockerfile
     ports:
       - 5555:5555
+
