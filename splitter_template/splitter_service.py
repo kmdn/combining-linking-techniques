@@ -7,10 +7,10 @@ app = Flask(__name__)
 print("Loading Custom Splitter")
 
 
+# Example copy split
+def process(document, number_of_child_nodes):
 
-def process(document):
-
-    return [document, document]
+    return [ document for i in range(0, number_of_child_nodes) ]
 
 
 
@@ -21,7 +21,17 @@ def index():
     req = json.loads(request.data)
     document = req['document']
 
-    documents = process(document)
+    number_of_child_nodes = 0
+    for child in req['pipelineConfig']['connections']:
+        if child['source'] == req['componentId']:
+            number_of_child_nodes+=1
+    if req['componentId'] in req['pipelineConfig']['endComponents']:
+        number_of_child_nodes += 1
+
+
+    documents = process(document, number_of_child_nodes+1)
+
+    assert len(documents) == number_of_child_nodes
 
     documents_dict_array = [{'document': doc} for doc in documents]
 
