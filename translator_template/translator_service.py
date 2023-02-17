@@ -65,7 +65,7 @@ with app.app_context():
     pass
 
 if __name__ == '__main__':
-    port = 5005
+    port = 5006
     print("Running app... on port: ", port)
     app.wsgi_app = LoggingMiddleware(app.wsgi_app)
     #app.run(host='0.0.0.0', port=80)
