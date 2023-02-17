@@ -29,7 +29,7 @@ def index():
         number_of_child_nodes += 1
 
 
-    documents = process(document, number_of_child_nodes+1)
+    documents = process(document, number_of_child_nodes)
 
     assert len(documents) == number_of_child_nodes
 
