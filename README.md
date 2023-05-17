@@ -97,8 +97,8 @@
 
 
 
-## [CLiT Website (barebone)](http://clit.tech)
-[![CLiT Website](/img/clit_website_part_core.png)](http://clit.tech)
+## [CLiT Website (barebone)](http://clit.tech:8080)
+[![CLiT Website](/img/clit_website_part_core.png)](http://clit.tech:8080)
 
 
 
