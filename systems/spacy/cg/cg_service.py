@@ -31,7 +31,7 @@ def generate_candidates(text, mention):
     mention_doc = nlp(mention['mention'])
     candidate_entities = [ent.text for ent in doc.ents if ent.text.lower() == mention_doc.text.lower()]
     for c in candidate_entities:
-        possible_assignments.append({"score": 1.0, "assignment": c})
+        possible_assignments.append({"score": .5, "assignment": c})
     
     return possible_assignments
 
@@ -89,7 +89,6 @@ def index():
 
     process(document)
 
-    print(document)
     return jsonify(
             {'document' : document,
             'pipelineConfig' : req['pipelineConfig'],
