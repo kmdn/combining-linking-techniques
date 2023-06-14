@@ -5,10 +5,10 @@
 	1. [Git](https://git-scm.com/downloads)
 	2. [Docker / docker-compose](https://www.docker.com/)
 
-1. Clone Github repository & go into its root folder.
+1. Clone Github repository and all the submodules & go into its root folder.
 	1. Execute command
 	```
-	 git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
+	 git clone --recurse-submodules https://github.com/kmdn/combining-linking-techniques && cd combining-linking-techniques
 	```
 
 	2. In case git gives you "over data quota" issues, you may clone (non-LFS data) with - this will not download benchmark data sets:
