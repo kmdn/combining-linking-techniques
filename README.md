@@ -46,7 +46,7 @@
 2. Build with Maven (Note: issues may arise depending on local mvn settings, hence we recommend the first step)
 	1. Build clit_backend
 	```
-	cd clit_backend && mvn clean install && cd ..
+	cd clit_backend && mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true && cd ..
 	```
 	
 	2. Build clit_frontend (relies on backend)
