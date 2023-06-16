@@ -13,7 +13,7 @@
 
 	2. In case git gives you "over data quota" issues, you may clone (non-LFS data) with - this will not download benchmark data sets:
 	```
-	GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
+	GIT_LFS_SKIP_SMUDGE=1 git clone --recurse-submodules https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
 	```
 
 2. Run front-end
@@ -40,7 +40,7 @@
 
 1. Clone Github repository & go into its root folder.
 ```
- git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
+ git clone --recurse-submodules https://github.com/kmdn/combining-linking-techniques && cd combining-linking-techniques
 ```
 
 2. Build with Maven (Note: issues may arise depending on local mvn settings, hence we recommend the first step)
