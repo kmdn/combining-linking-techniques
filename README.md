@@ -5,15 +5,15 @@
 	1. [Git](https://git-scm.com/downloads)
 	2. [Docker / docker-compose](https://www.docker.com/)
 
-1. Clone Github repository & go into its root folder.
+1. Clone Github repository and all the submodules & go into its root folder.
 	1. Execute command
 	```
-	 git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
+	 git clone --recurse-submodules https://github.com/kmdn/combining-linking-techniques && cd combining-linking-techniques
 	```
 
 	2. In case git gives you "over data quota" issues, you may clone (non-LFS data) with - this will not download benchmark data sets:
 	```
-	GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
+	GIT_LFS_SKIP_SMUDGE=1 git clone --recurse-submodules https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
 	```
 
 2. Run front-end
@@ -40,13 +40,13 @@
 
 1. Clone Github repository & go into its root folder.
 ```
- git clone https://github.com/kmdn/combining-linking-techniques.git && cd combining-linking-techniques
+ git clone --recurse-submodules https://github.com/kmdn/combining-linking-techniques && cd combining-linking-techniques
 ```
 
 2. Build with Maven (Note: issues may arise depending on local mvn settings, hence we recommend the first step)
 	1. Build clit_backend
 	```
-	cd clit_backend && mvn clean install && cd ..
+	cd clit_backend && mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true && cd ..
 	```
 	
 	2. Build clit_frontend (relies on backend)
