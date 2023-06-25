@@ -1,14 +1,7 @@
 from flask import Flask, request, Response, jsonify
 import json
 import spacy
-from spacy.pipeline.entity_linker import DEFAULT_NEL_MODEL
-from spacy.pipeline import EntityLinker
-
-
-
-# Load the spaCy English model
-nlp = spacy.load("en_core_web_sm")
-
+import requests
 
 app = Flask(__name__)
 
@@ -24,15 +17,19 @@ def add_possible_assignment(score, assignment, possible_assignments_list):
     possible_assignments_list.append(possible_assignment_object)
 
 
-def generate_candidates(text, mention):
-    doc = nlp(text)
+def generate_candidates(mention):
 
     possible_assignments = []
-    mention_doc = nlp(mention['mention'])
-    candidate_entities = [ent.text for ent in doc.ents if ent.text.lower() == mention_doc.text.lower()]
-    for c in candidate_entities:
-        possible_assignments.append({"score": .5, "assignment": c})
-    
+
+    url = "https://opentapioca.wordlift.io/api/annotate"
+    data = {
+        "query": mention['mention']
+    }
+
+    response = requests.post(url, data=data)
+    for tag in response.json()['annotations'][0]['tags']:
+        add_possible_assignment(tag['score'], tag['id'], possible_assignments)
+
     return possible_assignments
 
 
@@ -46,7 +43,7 @@ def process(document):
         # replace the following line with something like -> possible_assignments = own_system.get_candidates(mention) 
         # example
 
-        possible_assignments = generate_candidates(document['text'], mention)
+        possible_assignments = generate_candidates(mention)
 
 
         for possibleAssignment in possible_assignments:
@@ -82,8 +79,8 @@ def process(document):
 
 @app.route('/', methods=['get', 'post'])
 def index():
-    # print("Incoming request:")
-    # print(request.data)
+    print("Incoming request:")
+    print(request.data)
     req = json.loads(request.data)
     document = req['document']
 
