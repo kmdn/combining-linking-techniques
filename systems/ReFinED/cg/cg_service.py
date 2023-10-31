@@ -1,6 +1,5 @@
 from flask import Flask, request, Response, jsonify
 import json
-import spacy
 from refined.inference.processor import Refined
 
 
