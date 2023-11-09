@@ -31,6 +31,7 @@ def init_generator() -> CandidateGenerator:
 
     return candidate_generator
 
+generator = init_generator()
 
 def add_possible_assignment(score, assignment, possible_assignments_list):
     possible_assignment_object = {"score": score, "assignment": assignment}
@@ -64,8 +65,6 @@ def generate_candidates(mention):
     possible_assignments = []
 
     text = mention["mention"]
-    generator = init_generator()
-    # TODO: not load complete model every time
     candidates, _ = generator.get_candidates(text)
     for idx, score in candidates:
         if score == 0:
