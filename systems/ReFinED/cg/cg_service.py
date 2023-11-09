@@ -31,6 +31,7 @@ def init_generator() -> CandidateGenerator:
 
     return candidate_generator
 
+generator = init_generator()
 
 def add_possible_assignment(score, assignment, possible_assignments_list):
     possible_assignment_object = {"score": score, "assignment": assignment}
@@ -64,8 +65,6 @@ def generate_candidates(mention):
     possible_assignments = []
 
     text = mention["mention"]
-    generator = init_generator()
-    # TODO: not load complete model every time
     candidates, _ = generator.get_candidates(text)
     for idx, score in candidates:
         if score == 0:
@@ -134,7 +133,7 @@ with app.app_context():
     pass
 
 if __name__ == "__main__":
-    port = 5005
+    port = 5002
     print("Running app... on port: ", port)
     app.wsgi_app = LoggingMiddleware(app.wsgi_app)
     # app.run(host='0.0.0.0', port=80)

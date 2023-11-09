@@ -8,6 +8,9 @@ app = Flask(__name__)
 
 print("Loading Custom MD")
 
+refined = Refined.from_pretrained(
+    model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
+)
 
 def add_mention(mention, offset, mentions_list):
     mention_object = {"mention": mention, "offset": offset, "possibleAssignments": []}
@@ -17,12 +20,6 @@ def add_mention(mention, offset, mentions_list):
 def detect(text):
     """replace the following line with something like -> mentions = own_system.detect(text)"""
 
-    # md = MentionDetector.init_from_pretrained(model_dir=model_dir, device=device)
-    # TODO NL: extract single layer
-
-    refined = Refined.from_pretrained(
-        model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
-    )
     # TODO: not load complete model every time
 
     result = refined.process_text(text)
@@ -116,7 +113,7 @@ with app.app_context():
     pass
 
 if __name__ == "__main__":
-    port = 5004
+    port = 5001
     print("Running app... on port: ", port)
     app.wsgi_app = LoggingMiddleware(app.wsgi_app)
     # app.run(host='0.0.0.0', port=80)

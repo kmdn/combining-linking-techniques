@@ -11,6 +11,10 @@ app = Flask(__name__)
 print("Loading Custom Combined CG and ED")
 
 
+refined = Refined.from_pretrained(
+    model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
+)
+
 def create_span_by_mention(mention) -> Span:
     text = mention["mention"]
     offset = mention["offset"]
@@ -28,10 +32,6 @@ def add_assignment(score, assignment, mention):
 def process(document):
     mentions = document["mentions"]
     text = document["text"]
-
-    refined = Refined.from_pretrained(
-        model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
-    )
 
     # Decission to run pipline once, and not for every span mention
     result = refined.process_text(text, [create_span_by_mention(m) for m in mentions])
@@ -131,7 +131,7 @@ with app.app_context():
     pass
 
 if __name__ == "__main__":
-    port = 5006
+    port = 5005
     print("Running app... on port: ", port)
     app.wsgi_app = LoggingMiddleware(app.wsgi_app)
     # app.run(host='0.0.0.0', port=80)
