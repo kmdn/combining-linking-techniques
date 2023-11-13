@@ -1,0 +1,51 @@
+,Läuft auf,MD 5001,CG 5002,ED 5003,EL 5004,CG+ED 5005,Notes,Issues
+REL,ATHENA,YES,YES,YES,YES (Integrated),YES (Integrated),"On our REL fork run:
+docker build . -t informagi/rel
+Download the data using thescript see REL repo
+docker run \
+    -p 5555:5555 \
+    -v $PWD/data/:/workspace/data \
+    --rm -it informagi/rel \
+    python -m REL.server --bind 0.0.0.0 --port 5555 /workspace/data wiki_2019
+
+:5555/mg,cd,ed
+:5555/combine is not compliant with our api","combining MD and CG from
+REL in the custom pipeline
+BACKEND ISSUE FIXED"
+BLINK,ICARUS,NO,YES,NO,NO,NO,"source .bashrc
+conda activate blink37
+cd BLINK
+Python cg_service.py",
+GENRE,ATHENA,NO,YES,WIP,NO,WIP,"cd GENRE
+Python cg_service.py",
+Opentapioca,ATHENA,YES (Integrated),YES,YES,YES (Integrated),YES (Integrated),"CliT/systems/opentapioca/
+Run service",
+ReFinED,ATHENA,YES (Niklas),YES (why load complete model),YES (Niklas),YES,YES (BACKEND ISSUE FIXED),"install working pytorch version for installed cuda version 11.2
+Clone refined, remove torch>=xy and run pip install .
+This was done now only activate venv refined
+Run cg_service in clit/sys/refined/cg",
+DBLPLinker,N/A,NO,WIP,NO,WIP,NO,,
+ExtEnD,NA,NO,NO,NO,WIP,NO,,
+FALCON 2.0,API,YES (Integrated),YES + YES (Integrated),NO,YES (Integrated),YES (Integrated),,
+spaCy,ATHENA,YES kmdn/clit-spacy-mention-detector,YES ,NO,NO,NO,"For md: 
+Docker run --name clit-spacy-md -p 5001:5001 -d kmdn/clit-spacy-mention-detector
+For cg:
+activate torch-cuda1101 
+Run clit/sys/spaCy/cg_service.py","same as rel + 
+Empty candidates??"
+EL-Docker,,,,,,,,
+TNER,ATHENA,YES,NO,NO,NO,NO,"Activate tner-cuda env
+Run clit/sys/tner/cg_service ",find a way to split??
+CHOLAN,SAME AS FALCON???,,,,,,,
+,,,,,,,,
+Baked in Systems:,,,,,,,,
+,,,,,,,,
+DBPediaLookupFinder,API,NO,YES,NO,,NO,,
+Babelfy,API,YES,NO,NO,YES,YES,,
+DbpediaSpotlight,API,YES,NO,NO,YES,YES,,
+TagMe,API,YES,NO,NO,YES,YES,,
+FOX,API,YES (500 Error),NO,NO,YES (DOWN),YES (500 Error),,
+TextRazor,API,YES,NO,NO,YES,YES,,
+EntityClassifierEULinker,API,YES (Timeout),NO,NO,YES (DOWN),NO,,
+AIDA,API,YES (DOWN),NO,NO,YES (DOWN),YES (DOWN),,
+WikidataDict,API,NO,YES (Timeout),NO,NO,NO,,
