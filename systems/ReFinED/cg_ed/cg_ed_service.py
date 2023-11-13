@@ -25,6 +25,11 @@ def add_assignment(score, assignment, mention):
     mention["assignment"]["assignment"] = assignment
 
 
+def add_possible_assignment(score, assignment, possible_assignments_list):
+    possible_assignment_object = {"score": score, "assignment": assignment}
+    possible_assignments_list.append(possible_assignment_object)
+
+
 def process(document):
     mentions = document["mentions"]
     text = document["text"]
@@ -39,10 +44,22 @@ def process(document):
     assert len(mentions) == len(result)
 
     for idx, mention in enumerate(mentions):
-        if mention["possibleAssignments"] is None or not mention["possibleAssignments"]:
-            pass
+        span = result[idx]
 
-        assignment = result[idx].predicted_entity
+        if mention["possibleAssignments"] is None or mention["possibleAssignments"] == [
+            None
+        ]:
+            mention["possibleAssignments"] = []
+
+        # replace the following line with something like -> possible_assignments = own_system.get_candidates(mention)
+        # example
+
+        for cand, score in span.candidate_entities:
+            add_possible_assignment(
+                score, cand.wikidata_entity_id, mention["possibleAssignments"]
+            )
+
+        assignment = span.predicted_entity
 
         assignment_score = 1  # TODO which score do not know if refined provides one
         assignment_value = assignment.wikidata_entity_id

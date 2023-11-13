@@ -6,6 +6,13 @@ from refined.inference.standalone_md import MentionDetector
 
 app = Flask(__name__)
 
+
+# md = MentionDetector.init_from_pretrained(model_dir=model_dir, device=device)
+# TODO NL: extract single layer
+refined = Refined.from_pretrained(
+    model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
+)
+
 print("Loading Custom MD")
 
 
@@ -16,14 +23,6 @@ def add_mention(mention, offset, mentions_list):
 
 def detect(text):
     """replace the following line with something like -> mentions = own_system.detect(text)"""
-
-    # md = MentionDetector.init_from_pretrained(model_dir=model_dir, device=device)
-    # TODO NL: extract single layer
-
-    refined = Refined.from_pretrained(
-        model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
-    )
-    # TODO: not load complete model every time
 
     result = refined.process_text(text)
 
