@@ -109,7 +109,6 @@ def index():
     document = req["document"]
 
     process(document)
-    print(document)
 
     return jsonify(
         {

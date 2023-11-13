@@ -98,7 +98,6 @@ def generate_candidates(mention):
 @app.route("/", methods=["get", "post"])
 def index():
     print("Incoming request:")
-    print(request.data)
     req = json.loads(request.data)
     document = req["document"]
 

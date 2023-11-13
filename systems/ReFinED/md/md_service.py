@@ -80,7 +80,6 @@ def process(document):
 @app.route("/", methods=["get", "post"])
 def index():
     print("Incoming request:")
-    print(request.data)
     req = json.loads(request.data)
     document = req["document"]
 
