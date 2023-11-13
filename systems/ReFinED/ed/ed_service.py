@@ -11,6 +11,10 @@ app = Flask(__name__)
 print("Loading Custom ED")
 
 
+refined = Refined.from_pretrained(
+    model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
+)
+
 def create_span_by_mention(mention) -> Span:
     text = mention["mention"]
     offset = mention["offset"]
@@ -37,9 +41,6 @@ def process(document):
     mentions = document["mentions"]
     text = document["text"]
 
-    refined = Refined.from_pretrained(
-        model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
-    )
 
     # Decission to run pipline once, and not for every span mention
     result = refined.process_text(text, [create_span_by_mention(m) for m in mentions])
