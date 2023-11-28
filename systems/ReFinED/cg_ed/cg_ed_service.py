@@ -1,19 +1,64 @@
 import json
 import re
+import os
 
 from flask import Flask, Response, jsonify, request
 from refined.data_types.base_types import Entity, Span
 from refined.inference.processor import Refined
+from flask import Flask, Response, jsonify, request
+from refined.doc_preprocessing.candidate_generator import (
+    CandidateGenerator,
+    CandidateGeneratorExactMatch,
+)
+from refined.resource_management.data_lookups import LookupsInferenceOnly
+from typing import Literal
 
 app = Flask(__name__)
 
 
-print("Loading Custom ED")
-
-
+print("Loading Custom Combined CG and ED")
 refined = Refined.from_pretrained(
     model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
 )
+
+ENTITY_SET: Literal["wikipedia, wikidata"] = "wikipedia"
+
+
+
+def init_generator() -> CandidateGenerator:
+    lookups = LookupsInferenceOnly(
+        data_dir=os.path.join(os.path.expanduser("~"), ".cache", "refined"),
+        entity_set=ENTITY_SET,
+        use_precomputed_description_embeddings=True,
+        return_titles=False,
+    )
+
+    candidate_generator: CandidateGenerator = CandidateGeneratorExactMatch(
+        max_candidates=30,
+        pem=lookups.pem,
+        human_qcodes=lookups.human_qcodes,
+    )
+
+    return candidate_generator
+
+generator = init_generator()
+
+def add_possible_assignment(score, assignment, possible_assignments_list):
+    possible_assignment_object = {"score": score, "assignment": assignment}
+    possible_assignments_list.append(possible_assignment_object)
+
+
+def generate_candidates(mention):
+    possible_assignments = []
+
+    text = mention["mention"]
+    candidates, _ = generator.get_candidates(text)
+    for idx, score in candidates:
+        if score == 0:
+            break
+        possible_assignments.append({"score": score, "assignment": idx})
+
+    return possible_assignments
 
 def create_span_by_mention(mention) -> Span:
     text = mention["mention"]
@@ -37,9 +82,30 @@ def add_assignment(score, assignment, mention):
     mention["assignment"]["assignment"] = assignment
 
 
+
 def process(document):
     mentions = document["mentions"]
     text = document["text"]
+
+    for mention in mentions:
+        if mention["possibleAssignments"] is None or mention["possibleAssignments"] == [
+            None
+        ]:
+            mention["possibleAssignments"] = []
+
+        # replace the following line with something like -> possible_assignments = own_system.get_candidates(mention)
+        # example
+
+        possible_assignments = generate_candidates(mention)
+
+        for possibleAssignment in possible_assignments:
+            assignment_score = possibleAssignment["score"]
+            assignment_value = possibleAssignment["assignment"]
+
+            add_possible_assignment(
+                assignment_score, assignment_value, mention["possibleAssignments"]
+            )
+
 
 
     # Decission to run pipline once, and not for every span mention
@@ -139,7 +205,7 @@ with app.app_context():
     pass
 
 if __name__ == "__main__":
-    port = 5003
+    port = 5005
     print("Running app... on port: ", port)
     app.wsgi_app = LoggingMiddleware(app.wsgi_app)
     # app.run(host='0.0.0.0', port=80)

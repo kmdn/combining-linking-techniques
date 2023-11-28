@@ -1,106 +1,196 @@
-from flask import Flask, request, Response, jsonify
 import json
+import os
+from typing import Literal
+
+from flask import Flask, Response, jsonify, request
 from refined.inference.processor import Refined
-
-
+from refined.inference.standalone_md import MentionDetector
+from refined.data_types.base_types import Entity, Span
+from refined.doc_preprocessing.candidate_generator import (
+    CandidateGenerator,
+    CandidateGeneratorExactMatch,
+)
+from refined.resource_management.data_lookups import LookupsInferenceOnly
 
 app = Flask(__name__)
 
-print("Loading Custom ED")
+print("Loading Custom EL")
+ENTITY_SET: Literal["wikipedia, wikidata"] = "wikipedia"
+# TODO NL: extract single layer
+refined = Refined.from_pretrained(
+    model_name="wikipedia_model_with_numbers", entity_set="wikipedia"
+)
+
+def init_generator() -> CandidateGenerator:
+    lookups = LookupsInferenceOnly(
+        data_dir=os.path.join(os.path.expanduser("~"), ".cache", "refined"),
+        entity_set=ENTITY_SET,
+        use_precomputed_description_embeddings=True,
+        return_titles=False,
+    )
+
+    candidate_generator: CandidateGenerator = CandidateGeneratorExactMatch(
+        max_candidates=30,
+        pem=lookups.pem,
+        human_qcodes=lookups.human_qcodes,
+    )
+
+    return candidate_generator
+
+generator = init_generator()
+
+def add_mention(mention, offset, mentions_list):
+    mention_object = {"mention": mention, "offset": offset, "possibleAssignments": []}
+    mentions_list.append(mention_object)
+
+def add_possible_assignment(score, assignment, possible_assignments_list):
+    possible_assignment_object = {"score": score, "assignment": assignment}
+    possible_assignments_list.append(possible_assignment_object)
+
+def detect(text):
+    """replace the following line with something like -> mentions = own_system.detect(text)"""
+
+    # TODO: not load complete model every time
+
+    result = refined.process_text(text)
+
+    mentions = [{"text": span.text, "offset": span.start} for span in result]
+    return mentions
+
+def generate_candidates(mention):
+    possible_assignments = []
+
+    text = mention["mention"]
+    candidates, _ = generator.get_candidates(text)
+    for idx, score in candidates:
+        if score == 0:
+            break
+        possible_assignments.append({"score": score, "assignment": idx})
+
+    return possible_assignments
 
 
 def add_assignment(score, assignment, mention):
-    if not mention['assignment']:
-        mention['assignment'] = {}
-    mention['assignment']['score'] = score
-    mention['assignment']['assignment'] = assignment
+    if not "assignment" in mention:
+        mention["assignment"] = {}
+    mention["assignment"]["score"] = score
+    mention["assignment"]["assignment"] = assignment
 
-def create_mentions():
-    
-    pass
+def create_span_by_mention(mention) -> Span:
+    text = mention["mention"]
+    offset = mention["offset"]
 
+    return Span(
+        text=text,
+        start=offset,
+        ln=offset + len(text),
+        candidate_entities=[
+            (Entity(wikidata_entity_id=cand["assignment"]), cand["score"])
+            for cand in mention["possibleAssignments"]
+        ],  # TODO Check if refined uses those candidates and not genereate their own
+    )
 def process(document):
+    text = document["text"]
 
-    text = document['text']
-    refined = Refined.from_pretrained(model_name='wikipedia_model_with_numbers',
-                                      entity_set="wikipedia")
+    # Mention detection
+    # detect mentions with your own system
+    # example
+    mentions = detect(text)
+
+    if document["mentions"] is None:
+        document["mentions"] = []
+
+    for mention in mentions:
+        mention_text = mention["text"]
+        mention_offset = mention["offset"]
+        add_mention(mention_text, mention_offset, document["mentions"])
+
+    # Candidate gen
+    mentions = document["mentions"]
+
+    for mention in mentions:
+        if mention["possibleAssignments"] is None or mention["possibleAssignments"] == [
+            None
+        ]:
+            mention["possibleAssignments"] = []
+
+        # replace the following line with something like -> possible_assignments = own_system.get_candidates(mention)
+        # example
+
+        possible_assignments = generate_candidates(mention)
+
+        for possibleAssignment in possible_assignments:
+            assignment_score = possibleAssignment["score"]
+            assignment_value = possibleAssignment["assignment"]
+
+            add_possible_assignment(
+                assignment_score, assignment_value, mention["possibleAssignments"]
+            )
+    # Disambiguation
 
 
-    spans = refined.process_text(text)
-    for span in spans:
-        assignment_value = span.doc_id
-        assignment_value = span.predicted_entity.wikidata_entity_id
-        print([span.candidate_entities, span.coarse_mention_type, span.coarse_type, span.date, span.doc_id, span.entity_linking_model_confidence_score, span.failed_class_check, span.gold_entity, span.predicted_entity, span.predicted_entity_types, span.pruned_candidates, span.top_k_predicted_entities])
+    result = refined.process_text(text, [create_span_by_mention(m) for m in mentions])
+
+    assert len(mentions) == len(result)
+
+    for idx, mention in enumerate(mentions):
+        if mention["possibleAssignments"] is None or not mention["possibleAssignments"]:
+            pass
+
+        assignment = result[idx].predicted_entity
+
+        assignment_score = 1  # TODO which score do not know if refined provides one
+        assignment_value = assignment.wikidata_entity_id
+
+        add_assignment(assignment_score, assignment_value, mention)
 
 
-        print(dir(type(predicted_entity)))
-    
-    # add_assignment(assignment_score, assignment_value, mention)
-
-
-
-
-
-
-
-# received object: 
-# "document": [{
-    # "componentId": "CG1",
-    # "mentions": [{
-      # "offset": 0,
-      # "assignment": null,
-      # "possibleAssignments": [{
-        # "score": 1.0,
-        # "assignment": "http://dbpedia.org/resource/Emperor"
-      # },
-      # {
-        # "score": 1.0,
-        # "assignment": "http://babelnet.org/rdf/s00030591n"
-      # }],
-      # "originalWithoutStopwords": "Napoleon",
-      # "detectionConfidence": -1.0,
-      # "originalMention": "Napoleon",
-      # "mention": "Napoleon"
-    # },
-    # {
-      # "offset": 17,
-      # "assignment": null,
-      # "possibleAssignments": [{
-        # "score": 1.0,
-        # "assignment": "http://dbpedia.org/resource/Emperor"
-      # },
-      # {
-        # "score": 1.0,
-        # "assignment": "http://babelnet.org/rdf/s00030591n"
-      # }],
-      # "originalWithoutStopwords": "emperor",
-      # "detectionConfidence": -1.0,
-      # "originalMention": "emperor",
-      # "mention": "emperor"
-    # }],
-    # "text": "Napoleon was the emperor of the First French Empire.",
-    # "pipelineType": "CG",
-    # "uri": null
-  # }]
-# curl http://127.0.0.1:5003/ --header "Content-Type: application/json" --request POST -d '{"document":{"uri":null,"text":"Napoleon was the emperor of the First French Empire.","mentions":[{"mention":"Napoleon","offset":0,"assignment":null,"detectionConfidence":-1.0,"possibleAssignments":[{"score":1.0,"assignment":"test.com/Napoleon"},{"score":1.0,"assignment":"test2.com/Napoleon"}],"originalMention":"Napoleon","originalWithoutStopwords":"Napoleon","logger":{"logName":"structure.datatypes.Mention"}},{"mention":"emperor","offset":17,"assignment":null,"detectionConfidence":-1.0,"possibleAssignments":[{"score":1.0,"assignment":"test.com/Napoleon"},{"score":1.0,"assignment":"test2.com/Napoleon"}],"originalMention":"emperor","originalWithoutStopwords":"emperor","logger":{"logName":"structure.datatypes.Mention"}}],"componentId":"MD1","pipelineType":"MD"},"pipelineConfig":{"startComponents":["MD1"],"components":{"cg":[{"id":"CG1","value":"http://127.0.0.1:5002"}],"md":[{"id":"MD1","value":"http://127.0.0.1:5001"}],"cg_ed":[]},"exampleId":"md_combined_cged","endComponents":["CG1"],"displayName":"MD + combined CG-ED","id":1,"connections":[{"source":"MD1","target":"CG1"}],"pipelineConfigType":"complex"},"componentId":"CG1"}'
+# received object:
+# {
+# "componentId":"MD1",
+# "document": {
+# "componentId":"input",
+# "mentions":[],
+# "pipelineType":"NONE",
+# "text":"Napoleon was the emperor of the First French Empire.", <-- the input text ------------------------------------------------
+# "uri":null
+# },
+# "pipelineConfig":{
+# "components":{
+# "cg_ed":[],
+# "md":[{
+# "id":"MD1",
+# "value":"http://host.docker.internal:5001"
+# }]
+# },
+# "connections":[],
+# "displayName":"MD + combined CG-ED",
+# "endComponents":["MD1"],
+# "exampleId":"md_combined_cged",
+# "id":1,
+# "pipelineConfigType":"complex",
+# "startComponents":["MD1"]
+# }
+# }
+# curl http://127.0.0.1:5001/ --header "Content-Type: application/json" --request POST -d '{"document" : {"text": "Napoleon was the emperor of the First French Empire."},"pipelineConfig": "complex","componentId": "MD1"}'
 #
 
-@app.route('/', methods=['get', 'post'])
+
+@app.route("/", methods=["get", "post"])
 def index():
     print("Incoming request:")
     req = json.loads(request.data)
-    document = req['document']
+    document = req["document"]
 
     process(document)
-    print(document)
 
     return jsonify(
-            {'document' : document,
-            'pipelineConfig' : req['pipelineConfig'],
-            'componentId' : req['componentId']}
-            )
-
-
+        {
+            "document": document,
+            "pipelineConfig": req["pipelineConfig"],
+            "componentId": req["componentId"],
+        }
+    )
 
 
 class LoggingMiddleware(object):
@@ -108,11 +198,11 @@ class LoggingMiddleware(object):
         self._app = app
 
     def __call__(self, env, resp):
-        errorlog = env['wsgi.errors']
-        #pprint.pprint(('REQUEST', env), stream=errorlog)
+        errorlog = env["wsgi.errors"]
+        # pprint.pprint(('REQUEST', env), stream=errorlog)
 
         def log_response(status, headers, *args):
-            #pprint.pprint(('RESPONSE', status, headers), stream=errorlog)
+            # pprint.pprint(('RESPONSE', status, headers), stream=errorlog)
             return resp(status, headers, *args)
 
         return self._app(env, log_response)
@@ -122,14 +212,11 @@ class LoggingMiddleware(object):
 with app.app_context():
     pass
 
-if __name__ == '__main__':
-    port = 5003
+if __name__ == "__main__":
+    port = 5004
     print("Running app... on port: ", port)
     app.wsgi_app = LoggingMiddleware(app.wsgi_app)
-    #app.run(host='0.0.0.0', port=80)
+    # app.run(host='0.0.0.0', port=80)
     # expose 0.0.0.0 - esp. important for docker
-    app.run(host='0.0.0.0', port=port)
-    #app.run()
-
-
-
+    app.run(host="0.0.0.0", port=port)
+    # app.run()
