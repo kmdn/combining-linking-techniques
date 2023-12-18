@@ -1,22 +1,12 @@
 from flask import Flask, request, Response, jsonify
 import json
 import requests
-import pickle
-
-from genre.fairseq_model import GENRE
-from genre.trie import Trie
 
 
 app = Flask(__name__)
 
 print("Loading Custom ED")
 
-# load the prefix tree (trie)
-with open("data/kilt_titles_trie_dict.pkl", "rb") as f:
-    trie = Trie.load_from_dict(pickle.load(f))
-
-# load the model
-model = GENRE.from_pretrained("models/fairseq_entity_disambiguation_aidayago").eval()
 
 def add_assignment(score, assignment, mention):
     if not mention['assignment']:
@@ -37,37 +27,33 @@ def add_possible_assignment(score, assignment, possible_assignments_list):
 
 def generate_candidates(mention, text):
 
-    possible_assignments = []
-    
-    replacement = '[START_ENT] ' + mention['mention'] + ' [END_ENT]'
-    offset = mention['offset']
-    
 
-    print('mention found : ' + mention['mention'] + "\n")
-    new_text = ''
-    new_text = text[:offset]
-    new_text += replacement
-    new_text += text[offset + len(mention['mention']):]
-    print(new_text)
-    res = model.sample(
-        sentences=[new_text],
-        prefix_allowed_tokens_fn=lambda batch_id, sent: trie.get(sent.tolist()),
-    )
-    for candidate in res[0]:
-        print(candidate)
-        possible_assignments.append({"score": candidate['score'].item(), "assignment": candidate['text']})
-    print(res)
+    possible_assignments = []
+
+    url = "https://ltdemos.informatik.uni-hamburg.de/dblplinkapi/api/entitylinker/t5-small/distmult"
+    data = {
+        "question": mention["mention"]
+    }
+
+    headers = {
+            "Content-Type": "application/json"
+    }
+    response = requests.post(url, data=json.dumps(data), headers=headers)
+    for result in response.json()['entitylinkingresults'][0]['result']:
+
+        add_possible_assignment(-1, result[1][1], possible_assignments)
+
+    
     return possible_assignments
 
 def choose_candidate(possible_assignments):
     ''' possible assignment for a mention VS all_possible_assignments for all mentions '''
     maximum_score = 0
     assignment = {}
-    for a in possible_assignments:
-        if a['score'] > maximum_score:
-            maximum_score = a['score']
-            assignment = a
-    return assignment
+    if len(possible_assignments) > 0:
+        return possible_assignments[0]
+    return {}
+
 def process(document):
     mentions = document['mentions']
     text = document['text']
