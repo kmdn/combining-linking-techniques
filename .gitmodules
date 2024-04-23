@@ -13,3 +13,9 @@
 [submodule "REL"]
 	path = REL
 	url = https://github.com/hashpad/REL
+[submodule "combining_linking_techniques_analysis"]
+	path = combining_linking_techniques_analysis
+	url = https://github.com/hashpad/combining_linking_techniques_analysis
+[submodule "analysis"]
+	path = analysis
+	url = https://github.com/hashpad/combining_linking_techniques_analysis
